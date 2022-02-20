@@ -11,9 +11,23 @@ class Solution:
         currL2 = l2
         carry = 0
         
-        # Add both till one of the list reach end
-        while currL1 and currL2:
-            newVal = currL1.val + currL2.val + carry
+        # start adding to new list
+        while currL1 or currL2 or carry:
+            newVal = 0
+            
+            if currL1:
+                newVal += currL1.val
+                currL1 = currL1.next
+                
+            if currL2:
+                newVal += currL2.val
+                currL2 = currL2.next
+                
+            if carry:
+                newVal += carry
+                carry = 0
+                
+            
             if newVal > 9:
                 newVal = newVal - 10
                 carry = 1
@@ -23,40 +37,6 @@ class Solution:
             newNode = ListNode(newVal)
             curr.next = newNode
             curr = newNode
-            
-            currL1 = currL1.next
-            currL2 = currL2.next
-            
-        # Add the rest of L1
-        while currL1:
-            newVal = currL1.val + carry
-            if newVal > 9:
-                newVal = newVal - 10
-                carry = 1
-            else:
-                carry = 0
-            
-            newNode = ListNode(newVal)
-            curr.next = newNode
-            curr = newNode
-            currL1 = currL1.next
-            
-        # Add the rest of L2
-        while currL2:
-            newVal = currL2.val + carry
-            if newVal > 9:
-                newVal = newVal - 10
-                carry = 1
-            else:
-                carry = 0
-            
-            newNode = ListNode(newVal)
-            curr.next = newNode
-            curr = newNode
-            currL2 = currL2.next
-        
-        if carry:
-            curr.next = ListNode(carry)
         
         return head.next
         
