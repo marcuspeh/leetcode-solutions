@@ -5,6 +5,7 @@ class Solution:
         for n in nums:
             if n in cache:
                 return True
+            
             else:
                 cache.add(n)
         
