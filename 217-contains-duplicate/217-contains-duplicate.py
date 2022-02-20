@@ -1,5 +1,6 @@
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
+        # Store visited elements
         cache = set()
         
         # Iterate through everything
