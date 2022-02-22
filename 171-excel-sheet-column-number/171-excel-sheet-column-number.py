@@ -4,7 +4,7 @@ class Solution:
         
         # Something like Base 26
         for title in columnTitle:
-            result = (result << 1) * 13 + self.convertToNumber(title)
+            result = result * 26 + self.convertToNumber(title)
             
         return result 
 
