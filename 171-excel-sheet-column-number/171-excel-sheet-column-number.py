@@ -10,5 +10,5 @@ class Solution:
 
     # Convert to position
     def convertToNumber(self, letter):
-        ordOfA = 65
-        return ord(letter) - ordOfA + 1
+        offsetForA = 64
+        return ord(letter) - offsetForA
