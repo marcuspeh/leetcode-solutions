@@ -1,6 +1,7 @@
 class Solution:
     def titleToNumber(self, columnTitle: str) -> int:
         result = 0
+        base = 1
         
         # Something like Base 26
         for title in columnTitle:
