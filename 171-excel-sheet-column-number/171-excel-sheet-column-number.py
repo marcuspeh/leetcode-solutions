@@ -1,10 +1,13 @@
 class Solution:
     def titleToNumber(self, columnTitle: str) -> int:
         result = 0
+        base = 1
         
         # Something like Base 26
-        for title in columnTitle:
-            result = result * 26 + self.convertToNumber(title)
+        for i in range(len(columnTitle) - 1, -1, -1):
+            title = columnTitle[i]
+            result += self.convertToNumber(title) * base
+            base *= 26
             
         return result 
 
