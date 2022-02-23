@@ -8,8 +8,6 @@ class Solution:
         
         if nums[right] > nums[0]:
             return nums[0]
-        
-        # larger smaller
 
         while right >= left:
             mid = left + (right - left) // 2
