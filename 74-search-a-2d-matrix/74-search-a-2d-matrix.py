@@ -23,7 +23,7 @@ class Solution:
             
         return -1
     
-    # Find target in col
+    # Find target in col and return if found
     def findCol(self, arr, target):
         start = 0
         end = len(arr) - 1
