@@ -7,7 +7,7 @@ class Solution:
         
         return self.findCol(matrix[row], target)
         
-    # Find col that target is in
+    # Find col that target may be in
     def findRow(self, matrix, target):
         start = 0
         end = len(matrix) - 1
