@@ -7,6 +7,7 @@ class Solution:
         
         return self.findCol(matrix[row], target)
         
+    # Find col that target is in
     def findRow(self, matrix, target):
         start = 0
         end = len(matrix) - 1
@@ -17,11 +18,12 @@ class Solution:
                 return mid
             elif matrix[mid][0] > target:
                 end = mid - 1
-            else: # matrix[mid][0] < target
+            else:
                 start = mid + 1
             
         return -1
     
+    # Find target in col
     def findCol(self, arr, target):
         start = 0
         end = len(arr) - 1
