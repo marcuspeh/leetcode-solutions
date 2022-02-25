@@ -2,7 +2,7 @@ class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         counter = {}
         
-        # fill up counter with s
+        # fill up counter with S
         for i in s:
             if i in counter:
                 counter[i] += 1
