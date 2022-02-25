@@ -2,6 +2,7 @@ class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
         cache = {}
         
+        # Store avail words
         for c in magazine:
             if c in cache:
                 cache[c] += 1
