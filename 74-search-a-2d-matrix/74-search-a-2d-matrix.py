@@ -2,6 +2,7 @@ class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         row = self.findRow(matrix, target)
         
+        # If target not in any col
         if row == -1:
             return False
         
