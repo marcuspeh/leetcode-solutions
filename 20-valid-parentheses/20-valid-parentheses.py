@@ -12,6 +12,7 @@ class Solution:
                 if not stack or stack.pop() != "(":
                     return False
             elif i == "]":
+                # Check for [
                 if not stack or stack.pop() != "[":
                     return False
             else:
