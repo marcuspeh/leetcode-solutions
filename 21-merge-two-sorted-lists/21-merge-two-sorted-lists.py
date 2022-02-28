@@ -21,9 +21,11 @@ class Solution:
                 
         curr.next = None
                 
+        # Add to the back if there is still elements in list1
         if list1:
             curr.next = list1
         
+        # Add to the back if there is still elements in list2
         if list2:
             curr.next = list2
         
