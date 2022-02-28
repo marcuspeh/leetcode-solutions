@@ -9,7 +9,7 @@ class Solution:
         turtle = head
         rabbit = head
         
-        # At every step, turtle will move
+        # At every step, turtle will move 1 step and rabbit will move twice
         while rabbit:
             turtle = turtle.next
             
