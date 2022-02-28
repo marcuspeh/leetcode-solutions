@@ -12,6 +12,7 @@ class Solution:
         curr = newHead
         listCurr = head
         
+        # Add to list
         while listCurr:
             if curr.val != listCurr.val:
                 curr.next = ListNode(listCurr.val)
