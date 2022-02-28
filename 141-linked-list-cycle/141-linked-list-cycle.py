@@ -15,6 +15,7 @@ class Solution:
             
             rabbit = rabbit.next
             
+            # if rabbit reach end
             if rabbit == None:
                 return False
             
