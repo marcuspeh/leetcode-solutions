@@ -2,6 +2,7 @@ class Solution:
     def isValid(self, s: str) -> bool:
         stack = []
         
+        # Check paranthesis
         for i in s:
             if i == "}":
                 # Check for {
