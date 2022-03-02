@@ -14,7 +14,6 @@ class Solution:
             if not root:
                 return
             
-            # Start visiting
             helper(root.left)
             result.append(root.val)
             helper(root.right)
