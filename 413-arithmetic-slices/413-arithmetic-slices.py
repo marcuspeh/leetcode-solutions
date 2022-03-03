@@ -1,12 +1,14 @@
 class Solution:
-    def numberOfArithmeticSlices(self, nums: List[int]) -> int:    
+    def numberOfArithmeticSlices(self, nums: List[int]) -> int:
+        # 3 3 3 4 4 4 4
+        result = 0
         curr = 0
-        total = 0
-        for i in range(2, len(nums)):
-            if nums[i] - nums[i-1] == nums[i-1] - nums[i-2]:
+        
+        for i in range(1, len(nums) - 1):
+            if nums[i - 1] - nums[i] == nums[i] - nums[i + 1]:
                 curr += 1
-                total += curr
+                result += curr
             else:
                 curr = 0
-        
-        return total
+                
+        return result
