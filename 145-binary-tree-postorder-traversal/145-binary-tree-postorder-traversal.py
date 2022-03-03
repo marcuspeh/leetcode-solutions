@@ -12,6 +12,7 @@ class Solution:
             if not root:
                 return 
             
+            # Postorder search
             helper(root.left)
             helper(root.right)
             result.append(root.val)
