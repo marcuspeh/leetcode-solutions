@@ -7,19 +7,26 @@
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
         frontier = []
+        
+        # stack - push and get smallest node
+        # Push all left nodes
+        # pop and store then go right
+        
+        curr = root
         prev = -1 << 32
         
-        while frontier or root:
-            while root:
-                frontier.append(root)
-                root = root.left
-               
-            root = frontier.pop()
-        
-            if root.val <= prev:
+        while curr or frontier:
+            while curr:
+                frontier.append(curr)
+                curr = curr.left
+            
+            curr = frontier.pop()
+            
+            if curr.val <= prev:
                 return False
-                
-            prev = root.val
-            root = root.right
+            
+            prev = curr.val
+            curr = curr.right
         
         return True
+            
