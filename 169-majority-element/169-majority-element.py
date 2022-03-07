@@ -1,9 +1,8 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
-        limit = len(nums) // 2
-        
-        # Use to count how many of each elements
+        # Use count
         cache = {}
+        highest = nums[0]
         
         for n in nums:
             if n in cache:
@@ -11,5 +10,9 @@ class Solution:
             else:
                 cache[n] = 1
                 
-            if cache[n] > limit:
-                return n
+            if cache[n] > cache[highest]:
+                highest = n
+        
+        return highest
+        
+        
