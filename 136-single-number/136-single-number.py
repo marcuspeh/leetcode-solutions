@@ -1,8 +1,9 @@
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
+        # Option 1: cache
+        # Option 2: use xor
+        # a ^ a = 0
         result = 0
-        for i in nums:
-            result ^= i
+        for n in nums:
+            result ^= n
         return result
-     
-    # 01 xor 11 xor 01 = 10 xor 01 = 11
