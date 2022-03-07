@@ -6,11 +6,24 @@
 #         self.right = right
 class Solution:
     def findTarget(self, root: Optional[TreeNode], k: int) -> bool:
-        def dfs(root, seen):
-            if root == None: return False
-            complement = k - root.val
-            if complement in seen: return True
-            seen.add(root.val)
-            return dfs(root.left, seen) or dfs(root.right, seen)
+        seen = set()
         
-        return dfs(root, set())
+        frontier = [root]
+
+        while frontier:
+            curr = frontier.pop(0)
+            
+            otherValue = k - curr.val
+            
+            if otherValue in seen:
+                return True
+            
+            seen.add(curr.val)
+            
+            if curr.left:
+                frontier.append(curr.left)
+                
+            if curr.right:
+                frontier.append(curr.right)
+                
+        return False
