@@ -6,22 +6,23 @@
 
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
-        turtle = head
-        rabbit = head
+        if not head:
+            return False
         
-        # At every step, turtle will move 1 step and rabbit will move twice
+        rabbit = head.next
+        turtle = head
+        
         while rabbit:
-            turtle = turtle.next
-            
-            rabbit = rabbit.next
-            
-            # if rabbit reach end
-            if rabbit == None:
-                return False
-            
-            rabbit = rabbit.next
-            
-            if turtle == rabbit:
+            if rabbit == turtle:
                 return True
             
+            turtle = turtle.next
+            rabbit = rabbit.next
+            
+            if not rabbit:
+                break
+            
+            rabbit = rabbit.next
+            
         return False
+            
