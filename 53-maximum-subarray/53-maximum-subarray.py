@@ -1,11 +1,13 @@
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
-        result = -10001
-        currCount = 0
+        # 1 2 3 -1 10-> 
+        result = -1 << 32
+        curr = -1 << 32
         
         for n in nums:
-            currCount = max(currCount + n, n)
-            result = max(currCount, result)
-        
+            curr = max(curr + n, n)
+            result = max(result, curr)
+            
         return result
+        
         
