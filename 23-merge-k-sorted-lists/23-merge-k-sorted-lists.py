@@ -13,14 +13,16 @@ class Solution:
     def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
         head = ListNode()
         curr = head
+        counter = 1
         
         pq = []
         
         # O(k * log(k))
         for lst in lists:
             if lst:
-                heapq.heappush(pq, (lst.val, hash(lst), lst))
-            
+                heapq.heappush(pq, (lst.val, counter, lst))
+                counter += 1
+                
         # O(n * log(k))
         while pq:
             count, top = heapq.heappop(pq)[1:]
