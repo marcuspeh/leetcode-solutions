@@ -23,10 +23,10 @@ class Solution:
             
         # O(n * log(k))
         while pq:
-            top = heapq.heappop(pq)[2]
+            count, top = heapq.heappop(pq)[1:]
             curr.next = ListNode(top.val)
             curr = curr.next
             if top.next:
-                heapq.heappush(pq, (top.next.val, hash(top.next), top.next))
+                heapq.heappush(pq, (top.next.val, count, top.next))
                 
         return head.next
