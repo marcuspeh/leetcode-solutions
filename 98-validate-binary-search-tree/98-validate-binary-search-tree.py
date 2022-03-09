@@ -6,15 +6,13 @@
 #         self.right = right
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
+        # values in left subtree < curr < values in right subtree
+        
         frontier = []
-        
-        # stack - push and get smallest node
-        # Push all left nodes
-        # pop and store then go right
-        
         curr = root
         prev = -1 << 32
         
+        # Go to the minimum node and start checking
         while curr or frontier:
             while curr:
                 frontier.append(curr)
@@ -26,7 +24,10 @@ class Solution:
                 return False
             
             prev = curr.val
-            curr = curr.right
-        
-        return True
             
+            if curr.right:
+                curr = curr.right
+            else:
+                curr = None
+                
+        return True
