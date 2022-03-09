@@ -9,24 +9,20 @@ class Solution:
         if not root:
             return []
         
-        result = [[root.val]]
-        frontier = [root]
+        result = []
+        curr = [root]
         
-        while frontier:
-            newFrontier = []
-            newResult = []
+        while curr:
+            newCurr = []
+            toAppend = []
             
-            for node in frontier:
+            for node in curr:
+                toAppend.append(node.val)
                 if node.left:
-                    newFrontier.append(node.left)
-                    newResult.append(node.left.val)
-                    
+                    newCurr.append(node.left)
                 if node.right:
-                    newFrontier.append(node.right)
-                    newResult.append(node.right.val)
+                    newCurr.append(node.right)
                     
-            if newResult:
-                result.append(newResult)
-            frontier = newFrontier
-            
+            curr = newCurr
+            result.append(toAppend)
         return result
