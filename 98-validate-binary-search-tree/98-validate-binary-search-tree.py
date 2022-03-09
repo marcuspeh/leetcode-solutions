@@ -6,28 +6,20 @@
 #         self.right = right
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        # values in left subtree < curr < values in right subtree
-        
         frontier = []
-        curr = root
         prev = -1 << 32
         
-        # Go to the minimum node and start checking
-        while curr or frontier:
-            while curr:
-                frontier.append(curr)
-                curr = curr.left
-            
-            curr = frontier.pop()
-            
-            if curr.val <= prev:
+        while frontier or root:
+            while root:
+                frontier.append(root)
+                root = root.left
+               
+            root = frontier.pop()
+        
+            if root.val <= prev:
                 return False
-            
-            prev = curr.val
-            
-            if curr.right:
-                curr = curr.right
-            else:
-                curr = None
                 
+            prev = root.val
+            root = root.right
+        
         return True
