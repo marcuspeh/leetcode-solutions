@@ -4,29 +4,26 @@ class Solution:
         end = len(nums) - 1
         
         while start < end:
-            mid = (start + end) // 2
+            mid = (end - start) // 2 + start
             if nums[mid] > nums[end]:
                 start = mid + 1
             else:
                 end = mid
         
-        return self.binarySearch(nums, target, start)
-    
-    def binarySearch(self, nums, target, rotation):        
+        rotated = start
         
         start = 0
         end = len(nums) - 1
         
         while start <= end:
-            mid = (start + end) // 2
-            realMid = (mid + rotation) % len(nums)
+            mid = (end - start) // 2 + start
+            realMid = (mid + rotated) % len(nums)
             
-            if (nums[realMid] == target):
+            if nums[realMid] == target:
                 return realMid
-            
-            if nums[realMid] < target:
+            elif nums[realMid] < target:
                 start = mid + 1
             else:
                 end = mid - 1
-        
+                
         return -1
