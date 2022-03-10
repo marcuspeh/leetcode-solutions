@@ -1,25 +1,31 @@
 class Solution:
-    def findMin(self, nums):
+    def findMin(self, nums: List[int]) -> int:
+        # smallest - biggest
+        # biggest - smalleest
+        
         if len(nums) == 1:
             return nums[0]
-
-        left = 0
-        right = len(nums) - 1
         
-        if nums[right] > nums[0]:
-            return nums[0]
-
-        while right >= left:
-            mid = left + (right - left) // 2
+        start = 0
+        end = len(nums) -1
+        
+        # If still in order
+        if nums[start] < nums[end]:
+            return nums[start]
+        
+        # [4,5,6,7,0,1,2]
+        while start < end:
+            mid = (end - start) // 2 + start
             
             if nums[mid] > nums[mid + 1]:
                 return nums[mid + 1]
             
             if nums[mid - 1] > nums[mid]:
                 return nums[mid]
-
-            if nums[mid] > nums[0]:
-                left = mid + 1
+            
+            if nums[mid] <= nums[start]:
+                end = mid + 1
             else:
-                right = mid - 1
-        
+                start = mid + 1
+                
+        return nums[start]
