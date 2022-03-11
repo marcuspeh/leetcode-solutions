@@ -1,16 +1,13 @@
 class Solution:
     def increasingTriplet(self, nums: List[int]) -> bool:
-        cache = {}
+        firstNumber = secondNumber = 1 << 32
         
         for n in nums:
-            result = 1
-            for ca in cache:
-                if ca < n:
-                    result = max(cache[ca] + 1, result)
-            
-            if result >= 3:
+            if n <= firstNumber:
+                firstNumber = n
+            elif n <= secondNumber:
+                secondNumber = n
+            else:
                 return True
-            
-            cache[n] = result
         
         return False
