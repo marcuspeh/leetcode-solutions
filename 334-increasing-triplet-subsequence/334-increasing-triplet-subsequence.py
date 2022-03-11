@@ -1,6 +1,7 @@
 class Solution:
     def increasingTriplet(self, nums: List[int]) -> bool:
-        firstNumber = secondNumber = 1 << 32
+        firstNumber = 1 << 32
+        secondNumber = 1 << 32
         
         for n in nums:
             if n <= firstNumber:
