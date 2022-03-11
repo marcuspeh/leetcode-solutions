@@ -1,7 +1,7 @@
 class Solution:
     def increasingTriplet(self, nums: List[int]) -> bool:
-        firstNumber = 1 << 32
-        secondNumber = 1 << 32
+        firstNumber = float("inf")
+        secondNumber = float("inf")
         
         for n in nums:
             if n <= firstNumber:
