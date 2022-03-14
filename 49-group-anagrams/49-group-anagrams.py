@@ -1,14 +1,13 @@
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        # Can make use of hashing
         cache = {}
         
-        for s in strs:
-            tup = tuple(sorted(s))
+        for string in strs:
+            tupl = tuple(sorted(string))
             
-            if tup in cache:
-                cache[tup].append(s)
+            if tupl in cache:
+                cache[tupl].append(string)
             else:
-                cache[tup] = [s]
+                cache[tupl] = [string]
                 
         return list(cache.values())
