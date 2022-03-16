@@ -5,40 +5,30 @@
 #         self.next = next
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
-        head = ListNode()
-        curr = head
-        currL1 = l1
-        currL2 = l2
+        newHead = ListNode()
+        curr = newHead
+        
         carry = 0
         
-        # start adding to new list
-        while currL1 or currL2 or carry:
-            newVal = 0
-            
-            if currL1:
-                newVal += currL1.val
-                currL1 = currL1.next
-                
-            if currL2:
-                newVal += currL2.val
-                currL2 = currL2.next
-                
-            if carry:
-                newVal += carry
-                carry = 0
-                
-            
-            if newVal > 9:
-                newVal = newVal - 10
-                carry = 1
+        while l1 or l2 or carry:
+            # Just carry left
+            if not l1 and not l2:
+                val = carry
+            # If just l2 left
+            elif not l1:
+                val = l2.val + carry
+                l2 = l2.next
+            # If just l1 left
+            elif not l2:
+                val = l1.val + carry
+                l1 = l1.next
+            # If both left
             else:
-                carry = 0
-            
-            newNode = ListNode(newVal)
-            curr.next = newNode
-            curr = newNode
+                val = l1.val + l2.val + carry
+                l1 = l1.next
+                l2 = l2.next
+            curr.next = ListNode(val % 10)
+            carry = val // 10
+            curr = curr.next
         
-        return head.next
-        
-         
-            
+        return newHead.next
