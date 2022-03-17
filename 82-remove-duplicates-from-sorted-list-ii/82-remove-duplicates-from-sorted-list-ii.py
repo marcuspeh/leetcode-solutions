@@ -10,13 +10,11 @@ class Solution:
         curr = head
         
         while curr:
-            isRepeated = False
-            
-            while curr.next and curr.val == curr.next.val:
-                curr = curr.next
-                isRepeated = True
+            if curr.next and curr.val == curr.next.val:            
+                while curr.next and curr.val == curr.next.val:
+                    curr = curr.next
+                    isRepeated = True
                 
-            if isRepeated:
                 curr = curr.next
                 prev.next = curr
                 
