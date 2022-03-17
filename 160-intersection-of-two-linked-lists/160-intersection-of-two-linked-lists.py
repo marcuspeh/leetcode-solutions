@@ -24,6 +24,7 @@ class Solution:
         currA = headA
         currB = headB
         
+        # Align List
         if lengthA < lengthB:
             for _ in range(lengthB - lengthA):
                 currB = currB.next
@@ -31,8 +32,11 @@ class Solution:
             for _ in range(lengthA - lengthB):
                 currA = currA.next
         
+        # Check for collision
         while currA and currB:
             if currA == currB:
                 return currA
             currA = currA.next
             currB = currB.next
+            
+        return None
