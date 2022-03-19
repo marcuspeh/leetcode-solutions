@@ -1,18 +1,21 @@
 class Solution:
     def removeDuplicateLetters(self, s: str) -> str:
+        cache = {}
+        added = set()
         
-        last_occ = {}
+        for i in range(len(s)):
+            cache[s[i]] = i
+            
         stack = []
-
+        
         for i in range(len(s)):
-            last_occ[s[i]] = i
-
-        for i in range(len(s)):
-
-            if s[i] not in stack:
-                while (stack and stack[-1] > s[i] and last_occ[stack[-1]] > i):
-                    stack.pop()
-
-                stack.append(s[i])
-
-        return ''.join(stack)
+            character = s[i]
+            
+            if character not in added:
+                while stack and stack[-1] > character and cache[stack[-1]] > i:
+                    temp = stack.pop()
+                    added.remove(temp)
+                    
+                stack.append(character)
+                added.add(character)
+        return "".join(stack)
