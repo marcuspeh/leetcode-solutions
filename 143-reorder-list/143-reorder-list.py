@@ -8,26 +8,33 @@ class Solution:
         """
         Do not return anything, modify head in-place instead.
         """
-        # Since it is single direction, store all nodes to prevent continuous looping
+        if not head or not head.next:
+            return 
         
-        nodes = []
+        slow = head
+        fast = head
         
-        curr = head
-        while curr:
-            nodes.append(curr)
-            curr = curr.next
+        while fast.next and fast.next.next:
+            slow = slow.next
+            fast = fast.next.next
             
-        firstPointer = 0
-        secondPointer = len(nodes) - 1
+        # reverse second
+        # a - b - c
+        # c - b - a
+        prev = slow
+        second = slow.next
+        while second.next:
+            temp = second.next
+            second.next = temp.next
+            temp.next = prev.next
+            prev.next = temp
         
-        while firstPointer < secondPointer:
-            nodes[firstPointer].next = nodes[secondPointer]
-            firstPointer += 1
-            
-            if firstPointer >= secondPointer:
-                break
-            
-            nodes[secondPointer].next = nodes[firstPointer]
-            secondPointer -= 1
-            
-        nodes[firstPointer].next = None
+        # Combine
+        first = head
+        second = slow.next
+        while first != slow:
+            slow.next = second.next
+            second.next = first.next
+            first.next = second
+            first = second.next
+            second = slow.next
