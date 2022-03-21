@@ -17,24 +17,18 @@ class Solution:
             newFrontier = []
             toAppend = []
             
-            if isLeft:
-                for i in frontier:
-                    toAppend.append(i.val)
-                    if i.left:
-                        newFrontier.append(i.left)
-                    if i.right:
-                        newFrontier.append(i.right)
+            for i in frontier:
+                toAppend.append(i.val)
+                if i.left:
+                    newFrontier.append(i.left)
+                if i.right:
+                    newFrontier.append(i.right)
+
+            if not isLeft: 
+                result.append(toAppend[::-1])
             else:
-                for i in range(len(frontier) - 1, -1, -1):
-                    node = frontier[i]
-                    toAppend.append(node.val)
-                    if node.right:
-                        newFrontier.insert(0, node.right)
-                    if node.left:
-                        newFrontier.insert(0, node.left)
-            
+                result.append(toAppend)
             isLeft = not isLeft
-            result.append(toAppend)
             frontier = newFrontier
             
         return result
