@@ -10,25 +10,34 @@ class Solution:
             return []
         
         result = []
-        frontier = [root]
-        isLeft = True
+        frontier1 = [root]
+        frontier2 = []
         
-        while frontier:
-            newFrontier = []
+        while frontier1 or frontier2:
             toAppend = []
             
-            for i in frontier:
-                toAppend.append(i.val)
-                if i.left:
-                    newFrontier.append(i.left)
-                if i.right:
-                    newFrontier.append(i.right)
-
-            if not isLeft: 
-                result.append(toAppend[::-1])
-            else:
+            while frontier1:
+                temp = frontier1.pop()
+                toAppend.append(temp.val)
+                if temp.left:
+                    frontier2.append(temp.left)
+                if temp.right:
+                    frontier2.append(temp.right)
+                    
+            if toAppend:
                 result.append(toAppend)
-            isLeft = not isLeft
-            frontier = newFrontier
+                continue
+                
+            while frontier2:
+                temp = frontier2.pop()
+                toAppend.append(temp.val)
+                if temp.right:
+                    frontier1.append(temp.right)
+                if temp.left:
+                    frontier1.append(temp.left)
+            
+            if toAppend:
+                result.append(toAppend)
+                continue
             
         return result
