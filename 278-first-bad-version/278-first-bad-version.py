@@ -8,6 +8,7 @@ class Solution:
         
         while start < end:
             mid = (end - start) // 2 + start
+            
             if isBadVersion(mid):
                 end = mid
             else:
