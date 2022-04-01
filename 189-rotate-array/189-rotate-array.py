@@ -3,6 +3,10 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        for _ in range(k):
-            nums.insert(0, nums.pop())
-            
+        k %= len(nums)
+        first = nums[:-k]
+        second = nums[-k:]
+        nums.clear()
+        nums.extend(second)
+        nums.extend(first)
+        
