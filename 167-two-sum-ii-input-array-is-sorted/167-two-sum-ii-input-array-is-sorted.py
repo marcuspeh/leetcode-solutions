@@ -11,5 +11,3 @@ class Solution:
                 start += 1
             else:
                 end -= 1
-                
-        return [-1, -1]
