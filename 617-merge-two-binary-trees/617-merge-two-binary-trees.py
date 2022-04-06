@@ -16,4 +16,5 @@ class Solution:
         node.left = self.mergeTrees(root1.left, root2.left)
         node.right = self.mergeTrees(root1.right, root2.right)
         
-        return node
+        return node 
+        
