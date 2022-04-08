@@ -1,46 +1,41 @@
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
-        queue = []
+        if len(grid) == 0:
+            return 0
+        
+        moves = [(1, 0), (-1, 0), (0, 1), (0, -1)]
+        frontier = []
         time = 0
         fresh = 0
         
-        if len(grid) == 0:
-            return -1
-        
+        # Fill up number of fresh and position of rotton
         for i in range(len(grid)):
             for j in range(len(grid[0])):
-                if grid[i][j] == 2:
-                    queue.append((i, j))
                 if grid[i][j] == 1:
                     fresh += 1
-
-        while fresh > 0 and len(queue) > 0:
+                elif grid[i][j] == 2:
+                    frontier.append((i, j))
+                    
+        while frontier and fresh > 0:
+            newFrontier = []
             time += 1
-            for i in range(len(queue)):
-                i, j = queue.pop(0)
-                
-                if i > 0:
-                    if grid[i - 1][j] == 1:
-                        grid[i - 1][j] = 2
-                        fresh -= 1
-                        queue.append((i - 1, j))
-                
-                if i < len(grid) - 1:
-                    if grid[i + 1][j] == 1:
-                        grid[i + 1][j] = 2
-                        fresh -= 1
-                        queue.append((i + 1, j))
+            
+            for row, col in frontier:
+                for i, j in moves:
+                    newRow = row + i
+                    newCol = col + j
+                    
+                    if newRow < 0 or newRow >= len(grid):
+                        continue
                         
-                if j > 0:
-                    if grid[i][j - 1] == 1:
-                        grid[i][j - 1] = 2
+                    if newCol < 0 or newCol >= len(grid[0]):
+                        continue
+                    
+                    if grid[newRow][newCol] == 1:
+                        grid[newRow][newCol] = 2
                         fresh -= 1
-                        queue.append((i, j - 1))
+                        newFrontier.append((newRow, newCol))
                         
-                if j < len(grid[0]) - 1:
-                    if grid[i][j + 1] == 1:
-                        grid[i][j + 1] = 2
-                        fresh -= 1
-                        queue.append((i, j + 1))
-
+            frontier = newFrontier
+            
         return time if fresh == 0 else -1
