@@ -9,25 +9,20 @@ class Solution:
         curr = head
         
         while list1 and list2:
-            if list1.val < list2.val:
-                curr.next = list1
-                list1 = list1.next
-                curr = curr.next
-                                
-            else:
+            if list1.val > list2.val:
                 curr.next = list2
-                list2 = list2.next
                 curr = curr.next
+                list2 = list2.next
                 
-        curr.next = None
+            else:
+                curr.next = list1
+                curr = curr.next
+                list1 = list1.next
                 
-        # Add to the back if there is still elements in list1
         if list1:
             curr.next = list1
-        
-        # Add to the back if there is still elements in list2
+            
         if list2:
             curr.next = list2
-        
+            
         return head.next
-        
