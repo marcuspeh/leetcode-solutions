@@ -3,9 +3,12 @@ class Solution:
         cache = {}
         
         for i in range(len(nums)):
-            toFind = target - nums[i]
+            n = nums[i]
+            other = target - n
             
-            if toFind in cache:
-                return [i, cache[toFind]]
+            if other in cache:
+                return [i, cache[other]]
+                
+            cache[n] = i
             
-            cache[nums[i]] = i
+        
