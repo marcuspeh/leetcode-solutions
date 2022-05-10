@@ -1,17 +1,17 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        lowest = 10001
-        highest = -1
+        highest = 0
+        lowest = 1000001
+        
         result = 0
         
-        for price in prices:
-            if price < lowest:
-                lowest = price
-                highest = price
-        
-            if price > highest:
-                highest = price
+        for i in prices:
+            if i < lowest:
+                lowest = i
+                highest = i
             
-            result = max(result, highest - lowest)
-            
+            if i > highest:
+                highest = i
+                result = max(result, highest - lowest)
+                
         return result
