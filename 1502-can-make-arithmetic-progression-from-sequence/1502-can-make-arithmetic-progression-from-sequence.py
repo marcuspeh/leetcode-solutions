@@ -11,4 +11,4 @@ class Solution:
             if arr[i + 1] - arr[i] != diff:
                 return False
             
-        return True 
+        return True
