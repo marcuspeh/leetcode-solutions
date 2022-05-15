@@ -32,4 +32,4 @@ class Solution:
             return time
         else:
             return -1
-            
+             
