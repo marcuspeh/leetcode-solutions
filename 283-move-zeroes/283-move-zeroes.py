@@ -13,3 +13,4 @@ class Solution:
         while curr < len(nums):
             nums[curr] = 0
             curr += 1
+            
