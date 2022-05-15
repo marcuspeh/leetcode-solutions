@@ -25,7 +25,8 @@ class Solution:
             
             if node in edges:
                 for v, w in edges[node]:
-                    heapq.heappush(pq, (cost + w, v))
+                    if v not in visited:
+                        heapq.heappush(pq, (cost + w, v))
                 
         if len(visited) == n:
             return time
