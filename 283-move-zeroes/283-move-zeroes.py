@@ -3,17 +3,20 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        prev = 0
         curr = 0
+        pointer = 0
         
-        while curr < len(nums):
-            if nums[curr] != 0:
-                nums[prev] = nums[curr]
-                prev += 1
+        while pointer < len(nums):
+            while pointer < len(nums) and nums[pointer] == 0:
+                pointer += 1
+            
+            if pointer >= len(nums):
+                break
+            
+            nums[curr] = nums[pointer]
             curr += 1
-        
-        while prev < len(nums):
-            nums[prev] = 0
-            prev += 1
-        
-        return nums
+            pointer += 1
+            
+        while curr < len(nums):
+            nums[curr] = 0
+            curr += 1
