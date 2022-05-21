@@ -18,6 +18,7 @@ class ParkingSystem:
             if self.small <= 0:
                 return False
             self.small -= 1
+            
         return True
 
 
