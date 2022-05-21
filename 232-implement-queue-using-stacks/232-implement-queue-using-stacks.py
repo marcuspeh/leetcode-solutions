@@ -1,36 +1,28 @@
 class MyQueue:
 
     def __init__(self):
-        self.stack = []
-        self.stackReversed = []
-        
+        self.stack1 = []
+        self.stack2 = []
 
     def push(self, x: int) -> None:
-        self.stack.append(x)
-        
+        self.stack1.append(x)
 
     def pop(self) -> int:
-        if self.stackReversed:
-            return self.stackReversed.pop()
-        
-        while self.stack:
-            removed = self.stack.pop()
-            self.stackReversed.append(removed)
-        
-        return self.stackReversed.pop()
+        if not self.stack2:
+            self.reverseStack()
+        return self.stack2.pop()
 
     def peek(self) -> int:
-        if self.stackReversed:
-            return self.stackReversed[-1]
-        
-        while self.stack:
-            removed = self.stack.pop()
-            self.stackReversed.append(removed)
-        
-        return self.stackReversed[-1]        
+        if not self.stack2:
+            self.reverseStack()
+        return self.stack2[-1]
 
     def empty(self) -> bool:
-        return len(self.stack) == 0 and len(self.stackReversed) == 0
+        return not self.stack1 and not self.stack2
+        
+    def reverseStack(self):
+        while self.stack1:
+            self.stack2.append(self.stack1.pop())
 
 
 # Your MyQueue object will be instantiated and called as such:
