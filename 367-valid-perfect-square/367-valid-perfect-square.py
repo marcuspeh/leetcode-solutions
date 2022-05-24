@@ -3,14 +3,16 @@ class Solution:
         start = 1
         end = 1 << 32
         
-        while start < end:
+        while start <= end:
             mid = (end - start) // 2 + start
             sqMid = mid * mid
             
-            if sqMid < num:
+            if sqMid == num:
+                return True
+            elif sqMid < num:
                 start = mid + 1
             else:
-                end = mid
+                end = mid - 1
 
-        return start * start == num
+        return False
             
