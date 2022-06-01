@@ -2,12 +2,12 @@ class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         cache = {}
         
-        for string in strs:
-            tupl = tuple(sorted(string))
+        for s in strs:
+            temp = tuple(sorted(s))
             
-            if tupl in cache:
-                cache[tupl].append(string)
-            else:
-                cache[tupl] = [string]
+            if temp not in cache:
+                cache[temp] = []
                 
-        return list(cache.values())
+            cache[temp].append(s)
+            
+        return cache.values()
