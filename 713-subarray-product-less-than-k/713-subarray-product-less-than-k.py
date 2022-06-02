@@ -1,12 +1,21 @@
 class Solution:
     def numSubarrayProductLessThanK(self, nums: List[int], k: int) -> int:
-        if k <= 1: return 0
-        prod = 1
-        ans = left = 0
-        for right, val in enumerate(nums):
-            prod *= val
-            while prod >= k:
-                prod /= nums[left]
+        if k <= 1:
+            return 0
+        
+        result = 0
+        total = 1
+        left = 0
+        right = 0
+        
+        while right < len(nums):
+            total *= nums[right]
+            
+            while total >= k:
+                total /= nums[left]
                 left += 1
-            ans += right - left + 1
-        return ans       
+                
+            result += right - left + 1
+            right += 1
+        
+        return result
