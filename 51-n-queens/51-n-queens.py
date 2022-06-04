@@ -11,8 +11,8 @@ class Solution:
         for i in range(len(nums)):
             nums[index] = i
             if self.valid(nums, index): 
-                tmp = "." *len(nums)
-                self.dfs(nums, index+1, path+[tmp[:i]+"Q"+tmp[i+1:]], res)
+                tmp = "." * len(nums)
+                self.dfs(nums, index+1, path + [tmp[:i] + "Q" + tmp[i + 1:]], res)
 
     def valid(self, nums, n):
         for i in range(n):
