@@ -10,22 +10,21 @@ class BSTIterator:
         self.stack = [root]
 
     def next(self) -> int:
-        curr = self.stack.pop()
+        node = self.stack.pop()
         
-        while curr.left:
-            self.stack.append(curr)
-            curr = curr.left
-            self.stack[-1].left = None
-            
-        temp = curr.val
+        while node.left:
+            self.stack.append(node)
+            temp = node
+            node = node.left
+            temp.left = None
         
-        if curr.right:
-            self.stack.append(curr.right)
+        if node.right:
+            self.stack.append(node.right)
             
-        return temp
+        return node.val
 
     def hasNext(self) -> bool:
-        return len(self.stack) != 0
+        return len(self.stack) > 0
 
 
 # Your BSTIterator object will be instantiated and called as such:
