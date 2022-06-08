@@ -1,27 +1,27 @@
 class Node:
-    def __init__(self, val, next=None):
+    def __init__(self, val, mini):
         self.val = val
-        self.next = next
-        if next:
-            self.minValue = min(self.next.minValue, val)
-        else:
-            self.minValue = val
+        self.mini = mini
 
 class MinStack:
 
     def __init__(self):
-        self.stack = None
+        self.stack = []
 
     def push(self, val: int) -> None:
-        self.stack = Node(val, self.stack)
+        prevMini = self.stack[-1].mini if self.stack else val
+        
+        self.stack.append(Node(val, min(val, prevMini)))
 
     def pop(self) -> None:
-        self.stack = self.stack.next
-            
+        return self.stack.pop().val
+
     def top(self) -> int:
-        return self.stack.val
+        return self.stack[-1].val
+
     def getMin(self) -> int:
-        return self.stack.minValue
+        return self.stack[-1].mini
+        
 
 
 # Your MinStack object will be instantiated and called as such:
