@@ -1,9 +1,9 @@
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
-        arr = [[1 for i in range(m)] for i in range(n)]
-        
-        for i in range(1, n):
-            for j in range(1, m):
-                arr[i][j] = arr[i - 1][j] + arr[i][j - 1]
-        
-        return arr[n - 1][m - 1]
+        table = [[1 for i in range(n)] for j in range(m)]
+    
+        for i in range(1, m):
+            for j in range(1, n):
+                table[i][j] = table[i - 1][j] + table[i][j - 1]
+                
+        return table[m - 1][n - 1]
