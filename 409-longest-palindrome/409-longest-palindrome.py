@@ -1,14 +1,15 @@
 class Solution:
-    def longestPalindrome(self, strs: str) -> int:
-        # Number of pairs
-        cache = set()
+    def longestPalindrome(self, s: str) -> int:
+        cache = {}
         pairs = 0
-        
-        for s in strs:
-            if s in cache:
-                cache.remove(s)
-                pairs += 1
+        for i  in s:
+            if i not in cache:
+                cache[i] = 1
             else:
-                cache.add(s)
-                
-        return pairs * 2 + (1 if cache else 0)
+                pairs += 1
+                del cache[i]
+        
+        if cache:
+            return pairs * 2 + 1
+        else:
+            return pairs * 2
