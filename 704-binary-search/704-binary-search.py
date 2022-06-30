@@ -4,10 +4,11 @@ class Solution:
         end = len(nums) - 1
         
         while start < end:
-            mid = (end - start) // 2 + start
+            mid = start + (end - start) // 2
             
             if nums[mid] < target:
                 start = mid + 1
             else:
                 end = mid
+                
         return start if nums[start] == target else -1
