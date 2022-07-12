@@ -7,20 +7,19 @@ class Solution:
     def sortList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         lst = []
         
-        curr = head
-        while curr:
-            lst.append(curr)
-            curr = curr.next
+        while head:
+            lst.append(head.val)
+            head = head.next
             
-        lst.sort(key=lambda x: x.val)
+        lst.sort()
         
-        newHead = ListNode()
-        curr = newHead
+        result = ListNode()
+        curr = result
         
-        for i in lst:
-            curr.next = i
+        for l in lst:
+            curr.next = ListNode(l)
             curr = curr.next
+        return result.next
         
-        curr.next = None
         
-        return newHead.next
+        
