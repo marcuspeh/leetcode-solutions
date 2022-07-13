@@ -6,7 +6,7 @@ class Solution:
             if word not in cache:
                 cache[word] = 0
             cache[word] += 1
-        print(cache)
+            
         result = 0
         isSame = False
         for key, value in cache.items():
