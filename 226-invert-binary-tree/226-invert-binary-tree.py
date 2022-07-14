@@ -9,8 +9,9 @@ class Solution:
         if not root:
             return root
         
-        node = TreeNode(root.val)
-        node.left = self.invertTree(root.right)
-        node.right = self.invertTree(root.left)
+        left = self.invertTree(root.right)
+        right = self.invertTree(root.left)
+        root.left = left
+        root.right = right
         
-        return node
+        return root
