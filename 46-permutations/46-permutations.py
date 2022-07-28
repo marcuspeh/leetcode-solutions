@@ -2,15 +2,15 @@ class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         result = []
         
-        def helper(lst, perm):
+        def helper(lst, nums):
             nonlocal result
-            if not lst:
-                result.append(perm)
+            
+            if not nums:
+                result.append(lst)
+            
+            for i in range(len(nums)):
+                helper(lst + [nums[i]], nums[:i] + nums[i + 1:])
                 
-            for i in range(len(lst)):
-                helper(lst[:i] + lst[i + 1:], perm + [lst[i]])
-                
-        helper(nums, [])
+        helper([], nums)
         
         return result
-    
