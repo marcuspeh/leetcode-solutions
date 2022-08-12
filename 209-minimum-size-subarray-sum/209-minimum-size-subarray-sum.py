@@ -1,6 +1,6 @@
 class Solution:
     def minSubArrayLen(self, target: int, nums: List[int]) -> int:
-        result = 1 << 32
+        result = 1000000
         start = 0
         end = 0
         total = 0
@@ -14,5 +14,7 @@ class Solution:
                     total -= nums[start]
                     start += 1
                 result = min(end - start, result)
+                total -= nums[start]
+                start += 1
         
-        return 0 if result == 1 << 32 else result
+        return 0 if result == 1000000 else result
