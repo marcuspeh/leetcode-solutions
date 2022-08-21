@@ -1,7 +1,8 @@
 class Solution:
     def waysToSplit(self, nums: List[int]) -> int:
         prefix = [0]
-        for x in nums: prefix.append(prefix[-1] + x)
+        for x in nums:
+            prefix.append(prefix[-1] + x)
         
         ans = 0
         for i in range(1, len(nums)): 
