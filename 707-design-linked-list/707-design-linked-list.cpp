@@ -83,7 +83,7 @@ public:
         toRemove->prev->next = toRemove->next;
         toRemove->next->prev = toRemove->prev;
 
-        delete toRemove;
+        // delete toRemove;
         this->length--;
     }
 };
