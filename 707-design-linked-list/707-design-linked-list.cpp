@@ -1,5 +1,4 @@
-class Node {
-public:
+struct Node {
     int val;
     Node* next;
     Node* prev;
@@ -84,7 +83,7 @@ public:
         toRemove->prev->next = toRemove->next;
         toRemove->next->prev = toRemove->prev;
 
-        // delete toRemove;
+        delete toRemove;
         this->length--;
     }
 };
