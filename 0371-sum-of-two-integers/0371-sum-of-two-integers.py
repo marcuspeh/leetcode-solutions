@@ -8,4 +8,4 @@ class Solution:
         while carry != 0:
             add, carry=(add ^ carry) & mask, ((add & carry) <<1) & mask
     
-        return ~(add^mask) if isBothNegative else add
+        return ~(add ^ mask) if isBothNegative else add
