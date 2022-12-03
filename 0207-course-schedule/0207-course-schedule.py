@@ -1,43 +1,39 @@
-class Solution:
-    WHITE = 0
-    RED = 1
-    BLACK = 2
-    
+class Solution:    
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        links = {}
-        noEntry = {i for i in range(numCourses)}
+        WHITE = 0
+        RED = 1
+        BLACK = 2
+        adjList = {}
         
-        for i, j in prerequisites:
-            if j not in links:
-                links[j] = []
-            links[j].append(i)
-            if i in noEntry:
-                noEntry.remove(i)
-    
-        colors = [self.WHITE for _ in range(numCourses)]
-        visited = set()
+        for start, end in prerequisites:
+            if start not in adjList:
+                adjList[start] = []
+            adjList[start].append(end)
         
-        for node in noEntry:
-            isValid = self.dfs(links, colors, node, visited)
+        cache = [WHITE for i in range(numCourses)]
+        
+        def dfs(currCourse):
+            nonlocal cache
+            
+            if cache[currCourse] == RED:
+                return False
+            if cache[currCourse] == BLACK:
+                return True
+            
+            cache[currCourse] = RED
+            result = True
+            
+            if currCourse in adjList:
+                for end in adjList[currCourse]:
+                    result = result and dfs(end)
+                    if not result:
+                        break
+            
+            cache[currCourse] = BLACK
+            return result
+        
+        for i in range(numCourses):
+            isValid = dfs(i)
             if not isValid:
                 return False
-            
-        return len(visited) == numCourses
-        
-    def dfs(self, links, colors, curr, visited):
-        if curr in visited:
-            return True
-        
-        if colors[curr] == self.RED:
-            return False
-        
-        colors[curr] = self.RED
-        if curr in links:
-            for nextNode in links[curr]:
-                isValid = self.dfs(links, colors, nextNode, visited)
-                if not isValid:
-                    return False
-        colors[curr] = self.BLACK
-        visited.add(curr)
         return True
-        
