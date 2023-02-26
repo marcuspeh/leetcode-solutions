@@ -2,14 +2,14 @@ class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         cache = {}
         result = 0
-        currStart = 0
+        prevIndex = 0
         
         for i in range(len(s)):
-            word = s[i]
+            letter = s[i]
+            if letter in cache:
+                prevIndex = max(cache[letter] + 1, prevIndex)
             
-            if word in cache:
-                currStart = max(currStart, cache[word] + 1)
-            
-            cache[word] = i
-            result = max(result, i - currStart + 1)
+            result = max(i - prevIndex + 1, result)
+            cache[letter] = i
+        
         return result
