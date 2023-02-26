@@ -1,18 +1,25 @@
 class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
-        left = []
-        right = []
-        start = newInterval[0]
-        end = newInterval[1]
+        result = [(-1, -1)]
+                
+        while intervals:
+            start, end = intervals[0]
+            if start >= newInterval[0]:
+                break
+                
+            result.append(intervals.pop(0))
+            
+        if newInterval[0] <= result[-1][1]:
+            result[-1][1] = max(result[-1][1], newInterval[1])
+        else:
+            result.append(newInterval)
         
-        for i, j in intervals:
-            if j < start:
-                left.append([i, j])
-            elif i > end:
-                right.append([i, j])
+        while intervals:
+            start, end = intervals.pop(0)
+            if start <= result[-1][1]:
+                result[-1][1] = max(result[-1][1], end)
             else:
-                start = min(i, start)
-                end = max(j, end)
+                result.append((start, end))
         
-        return left + [[start, end]] + right
-    
+        result.pop(0)
+        return result
