@@ -6,29 +6,22 @@ public:
         }
         
         unordered_map<char, int> cache;
+        auto sIter = s.begin();
+        auto tIter = t.begin();
         
-        for(char character: s) {
-            if (cache.count(character) == 0) {
-                cache[character] = 0;
-            }
-            cache[character]++;
+        for(int i = 0; i < s.size(); i++) {
+            cache[*sIter]++;
+            cache[*tIter]--;
+            sIter++;
+            tIter++;
         }
         
-        for (char character: t) {
-            if (cache.count(character) == 0) {
+        for (auto charCount: cache) {
+            if (charCount.second != 0) {
                 return false;
-            }
-            
-            if (cache[character] <= 0) {
-                return false;
-            }
-            
-            cache[character]--;
-            if (cache[character] == 0) {
-                cache.erase(character);
             }
         }        
-        return cache.size() == 0;
+        return true;
         
     }
 };
