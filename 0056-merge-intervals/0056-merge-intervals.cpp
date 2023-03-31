@@ -5,7 +5,7 @@ public:
         
         vector<vector<int>> result;
         
-        sort(intervals.begin(), intervals.end());
+        sort(intervals.begin(), intervals.end(), Solution().comparator);
         
         result.push_back(intervals[0]);
         int last = intervals[0][1];
@@ -26,7 +26,7 @@ public:
     }
     
     static bool comparator(vector<int> x1, vector<int> x2) {
-        return x1[0] <= x2[0];
+        return x1[0] < x2[0];
     }
 
 };
