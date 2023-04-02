@@ -1,42 +1,44 @@
 class TimeMap {
+private:
+    unordered_map<string, vector<pair<string, int>>> store;
+    
 public:
-    unordered_map<string, vector<pair<int, string>>> keyTimeMap;
     TimeMap() {
+  
     }
     
     void set(string key, string value, int timestamp) {
-        // Push '(timestamp, value)' pair in 'key' bucket.
-        keyTimeMap[key].push_back({ timestamp, value });
+        store[key].push_back({value, timestamp});
     }
     
     string get(string key, int timestamp) {
-        // If the 'key' does not exist in map we will return empty string.
-        if (keyTimeMap.find(key) == keyTimeMap.end()) {
-            return "";
-        }
+        if (store.count(key) == 0) return "";
         
-        if (timestamp < keyTimeMap[key][0].first) {
-            return "";
-        }
+        if (timestamp < store[key][0].second) return "";
         
-        // Using binary search on the array of pairs.
-        int left = 0;
-        int right = keyTimeMap[key].size();
+        int start = 0;
+        int end = store[key].size();
         
-        while (left < right) {
-            int mid = (left + right) / 2;
-            if (keyTimeMap[key][mid].first <= timestamp) {
-                left = mid + 1;
+        while (start < end) {
+            int mid = (end + start) / 2;
+            if (store[key][mid].second <= timestamp) {
+                start = mid + 1;
             } else {
-                right = mid;
+                end = mid;
             }
         }
         
-        // If iterator points to first element it means, no time <= timestamp exists.
-        if (right == 0) {
+        if (start == 0) {
             return "";
         }
-                
-        return keyTimeMap[key][right - 1].second;
+        
+        return store[key][start - 1].first;
     }
 };
+
+/**
+ * Your TimeMap object will be instantiated and called as such:
+ * TimeMap* obj = new TimeMap();
+ * obj->set(key,value,timestamp);
+ * string param_2 = obj->get(key,timestamp);
+ */
