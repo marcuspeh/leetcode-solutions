@@ -20,7 +20,7 @@ public:
         int end = store[key].size();
         
         while (start < end) {
-            int mid = (end + start) / 2;
+            int mid = start + (end - start) / 2;
             if (store[key][mid].second <= timestamp) {
                 start = mid + 1;
             } else {
