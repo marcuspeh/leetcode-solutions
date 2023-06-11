@@ -8,7 +8,7 @@
 </ul>
 
 <p>&nbsp;</p>
-<p><strong>Example 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre><strong>Input:</strong> ["SnapshotArray","set","snap","set","get"]
 [[3],[0,5],[],[0,6],[0,0]]
