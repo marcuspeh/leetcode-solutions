@@ -6,25 +6,33 @@ class Node:
         self.neighbors = neighbors if neighbors is not None else []
 """
 
-class Solution:
+class Solution:            
     def cloneGraph(self, node: 'Node') -> 'Node':
-        newNodes = {}
+        if not node:
+            return node
         
-        def helper(node):
-            nonlocal newNodes
-            
-            if not node:
-                return None
-            
-            if node.val in newNodes:
-                return newNodes[node.val]
-            
-            newNode = Node(val = node.val)
-            newNodes[node.val] = newNode
+        cache = {}
+        root = Node(node.val)
+        cache[node] = root
+        frontier = [node]
+        
+        while frontier:
+            node = frontier.pop()
+            newNode = cache[node]
             
             for neighbor in node.neighbors:
-                newNode.neighbors.append(helper(neighbor))
-            
-            return newNode
+                if neighbor in cache:
+                    newNode.neighbors.append(cache[neighbor])
+                    continue
+                    
+                newNeighbor = Node(neighbor.val)
+                cache[neighbor] = newNeighbor
+                newNode.neighbors.append(cache[neighbor])
+                frontier.append(neighbor)
                 
-        return helper(node)
+                
+        return root
+                    
+            
+        
+        
