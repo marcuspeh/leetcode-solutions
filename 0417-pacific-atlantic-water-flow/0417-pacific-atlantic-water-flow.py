@@ -1,74 +1,57 @@
 class Solution:
-    NOT_VISITED = 0
-    PACIFIC_VISITED = 1
-    ATLANTIC_VISITED = 2
-    DIRECTIONS = [(1, 0), (-1, 0), (0, 1), (0, -1)]
-    
-    def pacificAtlantic(self, heights: List[List[int]]) -> List[List[int]]:
-        arr = [[Solution.NOT_VISITED for j in range(len(heights[i]))] for i in range(len(heights))]
-        self.processPacific(heights, arr)
-        return self.processAtlantic(heights, arr)
-        
-    def processPacific(self, heights, arr):
+    def pacificAtlantic(self, heights: List[List[int]]) -> List[List[int]]:        
+        # From pacific
         frontier = []
-        for i in range(len(heights)):
-            frontier.append((i, 0))
         for i in range(len(heights[0])):
             frontier.append((0, i))
-        
-        while frontier:
-            row, col = frontier.pop()
-            if arr[row][col] == Solution.PACIFIC_VISITED:
-                continue
-            
-            arr[row][col] = Solution.PACIFIC_VISITED
-            
-            for i, j in Solution.DIRECTIONS:
-                newRow = row + i
-                newCol = col + j
-                if newRow < 0 or newRow >= len(heights):
-                    continue
-                if newCol < 0 or newCol >= len(heights[0]):
-                    continue
-                if arr[newRow][newCol] == Solution.PACIFIC_VISITED:
-                    continue
-                if heights[newRow][newCol] < heights[row][col]:
-                    continue
-                
-                frontier.append((newRow, newCol))
-                
-    def processAtlantic(self, heights, arr):
-        frontier = []
-        result = []
         for i in range(len(heights)):
-            frontier.append((i, len(heights[0]) - 1))
+            frontier.append((i, 0))
+        pacific = self.dfs(heights, frontier)
+        
+        # From atlantic
+        frontier = []
         for i in range(len(heights[0])):
             frontier.append((len(heights) - 1, i))
-            
+        for i in range(len(heights)):
+            frontier.append((i, len(heights[0]) - 1))
+        atlantic = self.dfs(heights, frontier)
+        
+        # Results
+        result = []
+        for i in range(len(heights)):
+            for j in range(len(heights[0])):
+                if not pacific[i][j]:
+                    continue
+                if not atlantic[i][j]:
+                    continue
+                result.append((i, j))
+        return result        
+        
+        
+        
+    def dfs(self, heights, frontier):
+        directions = [(0, 1), (0, -1), (1, 0), (-1, 0)]
+        isVisited = [[False for _ in range(len(heights[0]))] for _ in range(len(heights))]
         while frontier:
-            row, col = frontier.pop()
-            
-            if arr[row][col] == Solution.ATLANTIC_VISITED:
+            i, j = frontier.pop()
+            if isVisited[i][j]:
                 continue
-            if arr[row][col] == Solution.PACIFIC_VISITED:
-                result.append((row, col))
+            isVisited[i][j] = True
+            for x, y in directions:
+                newI = i + x
+                newJ = j + y
                 
-            arr[row][col] = Solution.ATLANTIC_VISITED
+                if newI < 0 or newI >= len(heights):
+                    continue
+                if newJ < 0 or newJ >= len(heights[0]):
+                    continue
+                if isVisited[newI][newJ]:
+                    continue
+                if heights[newI][newJ] < heights[i][j]:
+                    continue
+                frontier.append((newI, newJ))
+        return isVisited
+                
             
-            for i, j in Solution.DIRECTIONS:
-                newRow = row + i
-                newCol = col + j
-                
-                if newRow < 0 or newRow >= len(heights):
-                    continue
-                if newCol < 0 or newCol >= len(heights[0]):
-                    continue
-                if arr[newRow][newCol] == Solution.ATLANTIC_VISITED:
-                    continue
-                if heights[newRow][newCol] < heights[row][col]:
-                    continue
-                
-                frontier.append((newRow, newCol))
-                
-        return result
+        
         
