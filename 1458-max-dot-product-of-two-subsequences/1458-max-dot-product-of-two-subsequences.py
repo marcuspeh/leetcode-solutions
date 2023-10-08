@@ -6,6 +6,10 @@ class Solution:
         if min(nums1) > 0 and max(nums2) < 0:
             return min(nums1) * max(nums2)
         
+        
+        if len(nums1) < len(nums2):
+            nums1, nums2 = nums2, nums1
+            
         curr = [0 for _ in range(len(nums2) + 1)]
 
         for i in range(len(nums1)):
