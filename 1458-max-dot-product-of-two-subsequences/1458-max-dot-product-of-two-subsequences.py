@@ -6,11 +6,12 @@ class Solution:
         if min(nums1) > 0 and max(nums2) < 0:
             return min(nums1) * max(nums2)
         
-        table = [[0 for _ in range(len(nums2) + 1)] for _ in range(len(nums1) + 1)]
+        curr = [0 for _ in range(len(nums2) + 1)]
 
         for i in range(len(nums1)):
+            temp = curr.copy()
             for j in range(len(nums2)):
-                curr = nums1[i] * nums2[j]
-                table[i + 1][j + 1] = max(table[i][j] + curr, table[i][j + 1], table[i + 1][j])
+                dot = nums1[i] * nums2[j]
+                curr[j + 1] = max(temp[j] + dot, curr[j + 1], curr[j])
                 
-        return table[-1][-1]
+        return curr[-1]
