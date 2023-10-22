@@ -1,18 +1,17 @@
 class Solution:
     def trap(self, height: List[int]) -> int:
-        stack = []
+        stack = [] # (height, index)
         result = 0
         
-        for i in range(len(height)):
-            h = height[i]
+        for index in range(len(height)):
+            currHeight = height[index]
             
-            while stack and stack[-1][0] < h:
-                temp = stack.pop()
+            while stack and stack[-1][0] < currHeight:
+                prevHeight, prevIndex = stack.pop()
                 if not stack:
                     break
-                result += (i - stack[-1][1] - 1) * (min(h, stack[-1][0]) - temp[0])
+                result += (min(currHeight, stack[-1][0]) - prevHeight) * (index - stack[-1][-1] - 1)
                 
-            stack.append((h, i))
-        return result
-                
+            stack.append((currHeight, index))
         
+        return result
