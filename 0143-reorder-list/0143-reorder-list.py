@@ -8,39 +8,52 @@ class Solution:
         """
         Do not return anything, modify head in-place instead.
         """
-        if not head or not head.next:
-            return head
+        first, second = self.splitList(head)
+        return self.combineList(first, second)
         
+    
+    def splitList(self, head):
         slow = head
         fast = head.next
+        if fast:
+            fast = fast.next
         
-        while fast.next:
+        while fast:
             slow = slow.next
             fast = fast.next
-            
-            if fast.next:
+            if fast:
                 fast = fast.next
                 
-        middle = slow.next
+        first = head
+        second = slow.next
         slow.next = None
-        reverseList = None
+        return first, self.reverseList(second)
         
-        while middle:
-            nextItem = middle.next
-            middle.next = reverseList
-            reverseList = middle
-            middle = nextItem
-            
-        curr = ListNode()
-        while head and reverseList:
-            curr.next = head
-            head = head.next
-            curr = curr.next
-            curr.next = reverseList
-            reverseList = reverseList.next
-            curr = curr.next
-            
-        if head:
-            curr.next = head
+    def reverseList(self, head):
+        prev = None
+        curr = head
         
+        while curr:
+            temp = curr.next
+            curr.next = prev
+            prev = curr
+            curr = temp
         
+        return prev
+    
+    def combineList(self, head1, head2):
+        newHead = ListNode()
+        curr = newHead
+        
+        while head1 or head2:
+            if head1:
+                curr.next = head1
+                head1 = head1.next
+                curr = curr.next
+                
+            if head2:
+                curr.next = head2
+                head2 = head2.next
+                curr = curr.next
+                
+        return newHead.next
