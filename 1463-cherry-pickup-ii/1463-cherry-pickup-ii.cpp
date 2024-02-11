@@ -1,12 +1,23 @@
 class Solution {    
+    int prevLayer[70][70];
+    int currLayer[70][70];
+    
+    void moveLayer() {
+        for (int i = 0; i < 70; i++) {
+            for (int j = 0; j < 70; j++) {
+                prevLayer[i][j] = currLayer[i][j];
+                currLayer[i][j] = -1;
+            }
+        }
+    }
 public:
     int cherryPickup(vector<vector<int>>& grid) {
         int m = grid.size();
         int n = grid[0].size();
         
-        int dp[70][70][70];
-        memset(dp, -1, sizeof(dp));
-        dp[0][0][n-1] = grid[0][0] + grid[0][n-1];
+        memset(prevLayer, -1, sizeof(prevLayer));        
+        memset(currLayer, -1, sizeof(currLayer));
+        prevLayer[0][n - 1] = grid[0][0] + grid[0][n - 1];
 
         int ans = 0;
         for(int row = 1; row < m; row++) {
@@ -23,17 +34,18 @@ public:
                             if (prevC2 < 0 || prevC2 >= n) {
                                 continue;
                             }
-                            int prev = dp[row-1][prevC1][prevC2];
+                            int prev = prevLayer[prevC1][prevC2];
                             if(prev != -1) {
-                               highest = max(highest, dp[row-1][prevC1][prevC2]);
+                               highest = max(highest, prevLayer[prevC1][prevC2]);
                             }
                         }
                     }
                     highest += grid[row][c1] + grid[row][c2];
-                    dp[row][c1][c2] = highest;
+                    currLayer[c1][c2] = highest;
                     ans = max(ans, highest);
                 }
             }
+            moveLayer();
         }
         
         return ans;
