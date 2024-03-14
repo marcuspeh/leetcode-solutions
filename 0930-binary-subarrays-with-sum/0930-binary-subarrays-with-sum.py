@@ -4,10 +4,8 @@ class Solution:
         currSum = 0
         counter = {0: 1}
         for num in nums:
-            currSum += num
-            # if currSum == goal:
-            #     result += 1
-                
+            currSum += num                
+            
             otherN = currSum - goal
             if otherN in counter:
                 result += counter[otherN]
