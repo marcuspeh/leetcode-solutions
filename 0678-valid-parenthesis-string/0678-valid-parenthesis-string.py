@@ -1,32 +1,22 @@
 class Solution:
     def checkValidString(self, s: str) -> bool:
-        opening = []
-        asterisk = []
+        openingCount = 0
         for i in range(len(s)):
-            char = s[i]
-            if char == '(':
-                opening.append(i)
+            if s[i] == ')':
+                openingCount -= 1
+                if openingCount < 0:
+                    return False
                 continue
             
-            if char == '*':
-                asterisk.append(i)
-                continue
-            
-            if not opening and not asterisk:
-                return False
-            
-            if opening:
-                opening.pop()
-                continue
-            asterisk.pop()
+            openingCount += 1
         
-        while opening:
-            prev = opening.pop()
+        closingCount = 0
+        for i in range(len(s) - 1, -1, -1):
+            if s[i] == '(':
+                closingCount -= 1
+                if closingCount < 0:
+                    return False
+                continue
+            closingCount += 1
             
-            if not asterisk:
-                return False
-            
-            asteriskPrev = asterisk.pop()
-            if prev > asteriskPrev:
-                return False
         return True
