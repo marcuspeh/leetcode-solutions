@@ -1,20 +1,19 @@
 class Solution:
     def countFairPairs(self, nums: List[int], lower: int, upper: int) -> int:
-        def helper(value):
-            i = 0
-            j = len(nums) - 1
-            result = 0
-            while i < j:
-                total = nums[i] + nums[j]
-
-                if total < value:
-                    result += j - i
-                    i += 1
-                    continue
-                j -= 1
-
-            return result
-        
-        
         nums.sort()
-        return helper(upper + 1) - helper(lower)
+        return self.count(nums, upper + 1) - self.count(nums, lower)
+
+    def count(self, arr, limit):
+        result = 0
+        i = 0
+        j = len(arr) - 1
+
+        while i < j:
+            total = arr[i] + arr[j]
+            if total < limit:
+                result += j - i
+                i += 1
+                continue
+            j -= 1
+        
+        return result
