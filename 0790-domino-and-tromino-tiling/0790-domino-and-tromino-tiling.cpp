@@ -11,7 +11,7 @@ public:
         int mod = 1e9 + 7;
 
         for (int i = 4; i <= n; i++) {
-            int curr = (c * 2 + a) % mod;
+            int curr = (c * 2 + (long) a) % mod;
             a = b;
             b = c;
             c = curr;
