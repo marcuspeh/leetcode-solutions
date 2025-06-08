@@ -1,21 +1,20 @@
 class Solution:
     def lexicalOrder(self, n: int) -> List[int]:
-        result = []
-        def helper():
-            nonlocal result
-            if not result:
-                return
+        lexicographical_numbers = []
+        for start in range(1, 10):
+            self._generate_lexical_numbers(start, n, lexicographical_numbers)
+        return lexicographical_numbers
+
+    def _generate_lexical_numbers(
+        self, current_number: int, limit: int, result: List[int]
+    ):
+        if current_number > limit:
+            return
             
-            prev = result[-1]
-            for i in range(10):
-                curr = prev * 10 + i
-                if curr > n:
-                    break
-                result.append(curr)
-                helper()
-        for i in range(1, 10):
-            if i > n:
-                break
-            result.append(i)
-            helper()
-        return result
+        result.append(current_number)
+        for next_digit in range(10):
+            next_number = current_number * 10 + next_digit
+            if next_number <= limit:
+                self._generate_lexical_numbers(next_number, limit, result)
+            else:
+                break  
