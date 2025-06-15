@@ -10,9 +10,6 @@ class Solution:
 
         b = str(num)
         for i in range(len(b)):
-            # if b[i] == "0":
-            #     continue
-                
             toReplace = "0"
             if b[i] == b[0]:
                 toReplace = "1"
