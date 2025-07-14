@@ -4,11 +4,13 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def getDecimalValue(self, head: ListNode) -> int:
+    def getDecimalValue(self, head: Optional[ListNode]) -> int:
         result = 0
         while head:
-            result <<= 1
-            result |= head.val
-            head= head.next
-            
+            result *= 2
+            if head.val == 1:
+                result += 1
+            head = head.next
+        
+
         return result
