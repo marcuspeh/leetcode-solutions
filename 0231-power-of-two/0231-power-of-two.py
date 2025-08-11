@@ -5,11 +5,7 @@ class Solution(object):
         :rtype: bool
         """
         count = 0
-        while n:
+        while n > 0:
             count += n & 0x1
-            n >>= 1
-
-            if count > 1:
-                break
-        
+            n = n >> 1
         return count == 1
