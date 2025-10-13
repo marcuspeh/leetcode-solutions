@@ -5,7 +5,6 @@ class Solution:
 
         for word in words:
             count = sorted(word)
-            print(count)
             if prevCount == count:
                 continue
 
