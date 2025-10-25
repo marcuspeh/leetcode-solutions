@@ -96,6 +96,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [1817-calculate-money-in-leetcode-bank](https://github.com/marcuspeh/leetcode-solutions/tree/master/1817-calculate-money-in-leetcode-bank) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/marcuspeh/leetcode-solutions/tree/master/2174-next-greater-numerically-balanced-number) |
 ## Backtracking
 |  |
