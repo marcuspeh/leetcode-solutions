@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/marcuspeh/leetcode-solutions/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1612-avoid-flood-in-the-city](https://github.com/marcuspeh/leetcode-solutions/tree/master/1612-avoid-flood-in-the-city) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/marcuspeh/leetcode-solutions/tree/master/2137-final-value-of-variable-after-performing-operations) |
+| [2169-simple-bank-system](https://github.com/marcuspeh/leetcode-solutions/tree/master/2169-simple-bank-system) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/marcuspeh/leetcode-solutions/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/marcuspeh/leetcode-solutions/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/marcuspeh/leetcode-solutions/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
@@ -50,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/marcuspeh/leetcode-solutions/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1612-avoid-flood-in-the-city](https://github.com/marcuspeh/leetcode-solutions/tree/master/1612-avoid-flood-in-the-city) |
+| [2169-simple-bank-system](https://github.com/marcuspeh/leetcode-solutions/tree/master/2169-simple-bank-system) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/marcuspeh/leetcode-solutions/tree/master/2174-next-greater-numerically-balanced-number) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/marcuspeh/leetcode-solutions/tree/master/3437-maximum-total-damage-with-spell-casting) |
 ## Greedy
@@ -93,6 +95,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/marcuspeh/leetcode-solutions/tree/master/2137-final-value-of-variable-after-performing-operations) |
+| [2169-simple-bank-system](https://github.com/marcuspeh/leetcode-solutions/tree/master/2169-simple-bank-system) |
 ## Math
 |  |
 | ------- |
@@ -102,4 +105,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2174-next-greater-numerically-balanced-number](https://github.com/marcuspeh/leetcode-solutions/tree/master/2174-next-greater-numerically-balanced-number) |
+## Design
+|  |
+| ------- |
+| [2169-simple-bank-system](https://github.com/marcuspeh/leetcode-solutions/tree/master/2169-simple-bank-system) |
 <!---LeetCode Topics End-->
