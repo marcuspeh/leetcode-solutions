@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/marcuspeh/leetcode-solutions/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/marcuspeh/leetcode-solutions/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/marcuspeh/leetcode-solutions/tree/master/3437-maximum-total-damage-with-spell-casting) |
+| [3616-make-array-elements-equal-to-zero](https://github.com/marcuspeh/leetcode-solutions/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/marcuspeh/leetcode-solutions/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/marcuspeh/leetcode-solutions/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 ## Binary Search
@@ -99,6 +100,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/marcuspeh/leetcode-solutions/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2169-simple-bank-system](https://github.com/marcuspeh/leetcode-solutions/tree/master/2169-simple-bank-system) |
+| [3616-make-array-elements-equal-to-zero](https://github.com/marcuspeh/leetcode-solutions/tree/master/3616-make-array-elements-equal-to-zero) |
 ## Math
 |  |
 | ------- |
@@ -113,4 +115,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2169-simple-bank-system](https://github.com/marcuspeh/leetcode-solutions/tree/master/2169-simple-bank-system) |
+## Prefix Sum
+|  |
+| ------- |
+| [3616-make-array-elements-equal-to-zero](https://github.com/marcuspeh/leetcode-solutions/tree/master/3616-make-array-elements-equal-to-zero) |
 <!---LeetCode Topics End-->
