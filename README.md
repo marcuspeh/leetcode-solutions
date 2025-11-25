@@ -66,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [1015-smallest-integer-divisible-by-k](https://github.com/marcuspeh/leetcode-solutions/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/marcuspeh/leetcode-solutions/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1612-avoid-flood-in-the-city](https://github.com/marcuspeh/leetcode-solutions/tree/master/1612-avoid-flood-in-the-city) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/marcuspeh/leetcode-solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -139,6 +140,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [1015-smallest-integer-divisible-by-k](https://github.com/marcuspeh/leetcode-solutions/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/marcuspeh/leetcode-solutions/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1817-calculate-money-in-leetcode-bank](https://github.com/marcuspeh/leetcode-solutions/tree/master/1817-calculate-money-in-leetcode-bank) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/marcuspeh/leetcode-solutions/tree/master/2174-next-greater-numerically-balanced-number) |
