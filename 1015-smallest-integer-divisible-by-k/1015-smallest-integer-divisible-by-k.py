@@ -1,8 +1,9 @@
 class Solution:
-    def smallestRepunitDivByK(self, K: int) -> int:
-        remainder = 0
-        for length_N in range(1,K+1):
-            remainder = (remainder*10+1) % K
-            if remainder == 0:
-                return length_N
+    def smallestRepunitDivByK(self, k: int) -> int:
+        curr = 0
+        for i in range(1, k + 1):
+            curr = (curr * 10 + 1) % k
+            if curr == 0:
+                return i
+        
         return -1
