@@ -26,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3476-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/marcuspeh/leetcode-solutions/tree/master/3476-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/marcuspeh/leetcode-solutions/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3531-count-covered-buildings](https://github.com/marcuspeh/leetcode-solutions/tree/master/3531-count-covered-buildings) |
+| [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/marcuspeh/leetcode-solutions/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/marcuspeh/leetcode-solutions/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/marcuspeh/leetcode-solutions/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3606-coupon-code-validator](https://github.com/marcuspeh/leetcode-solutions/tree/master/3606-coupon-code-validator) |
@@ -47,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0794-swim-in-rising-water](https://github.com/marcuspeh/leetcode-solutions/tree/master/0794-swim-in-rising-water) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/marcuspeh/leetcode-solutions/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
+| [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/marcuspeh/leetcode-solutions/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -121,6 +123,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/marcuspeh/leetcode-solutions/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/marcuspeh/leetcode-solutions/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/marcuspeh/leetcode-solutions/tree/master/3437-maximum-total-damage-with-spell-casting) |
+| [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/marcuspeh/leetcode-solutions/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 ## Counting
 |  |
 | ------- |
@@ -212,4 +215,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/marcuspeh/leetcode-solutions/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
+## Tree
+|  |
+| ------- |
+| [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/marcuspeh/leetcode-solutions/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 <!---LeetCode Topics End-->
