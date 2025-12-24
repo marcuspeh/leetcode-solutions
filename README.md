@@ -23,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/marcuspeh/leetcode-solutions/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/marcuspeh/leetcode-solutions/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/marcuspeh/leetcode-solutions/tree/master/2618-maximize-the-minimum-powered-city) |
+| [3074-apple-redistribution-into-boxes](https://github.com/marcuspeh/leetcode-solutions/tree/master/3074-apple-redistribution-into-boxes) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/marcuspeh/leetcode-solutions/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3476-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/marcuspeh/leetcode-solutions/tree/master/3476-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/marcuspeh/leetcode-solutions/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
@@ -97,6 +98,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1612-avoid-flood-in-the-city](https://github.com/marcuspeh/leetcode-solutions/tree/master/1612-avoid-flood-in-the-city) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/marcuspeh/leetcode-solutions/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/marcuspeh/leetcode-solutions/tree/master/2618-maximize-the-minimum-powered-city) |
+| [3074-apple-redistribution-into-boxes](https://github.com/marcuspeh/leetcode-solutions/tree/master/3074-apple-redistribution-into-boxes) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/marcuspeh/leetcode-solutions/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/marcuspeh/leetcode-solutions/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/marcuspeh/leetcode-solutions/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
@@ -112,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1262-greatest-sum-divisible-by-three](https://github.com/marcuspeh/leetcode-solutions/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/marcuspeh/leetcode-solutions/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/marcuspeh/leetcode-solutions/tree/master/2392-successful-pairs-of-spells-and-potions) |
+| [3074-apple-redistribution-into-boxes](https://github.com/marcuspeh/leetcode-solutions/tree/master/3074-apple-redistribution-into-boxes) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/marcuspeh/leetcode-solutions/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3531-count-covered-buildings](https://github.com/marcuspeh/leetcode-solutions/tree/master/3531-count-covered-buildings) |
 | [3606-coupon-code-validator](https://github.com/marcuspeh/leetcode-solutions/tree/master/3606-coupon-code-validator) |
