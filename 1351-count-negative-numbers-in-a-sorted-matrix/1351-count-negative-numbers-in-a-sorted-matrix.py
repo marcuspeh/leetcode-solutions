@@ -1,14 +1,13 @@
 class Solution:
-    def countNegatives(self, grid: List[List[int]]) -> int:
-        i = len(grid) - 1
-        j = 0
-        result = 0
-        
-        while i >= 0 and j < len(grid[0]):
-            if grid[i][j] < 0:
-                result += len(grid[0]) - j
-                i -= 1
-            else:
-                j += 1
-        
-        return result
+    def countNegatives(self, grid):
+        count = 0
+
+        for row in grid:
+            first_negative = len(row)
+            for i, value in enumerate(row):
+                if value < 0:
+                    first_negative = i
+                    break
+            count += len(row) - first_negative
+
+        return count
