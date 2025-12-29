@@ -80,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0756-pyramid-transition-matrix](https://github.com/marcuspeh/leetcode-solutions/tree/master/0756-pyramid-transition-matrix) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/marcuspeh/leetcode-solutions/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/marcuspeh/leetcode-solutions/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1590-make-sum-divisible-by-p](https://github.com/marcuspeh/leetcode-solutions/tree/master/1590-make-sum-divisible-by-p) |
@@ -142,6 +143,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0756-pyramid-transition-matrix](https://github.com/marcuspeh/leetcode-solutions/tree/master/0756-pyramid-transition-matrix) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/marcuspeh/leetcode-solutions/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/marcuspeh/leetcode-solutions/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/marcuspeh/leetcode-solutions/tree/master/1636-number-of-substrings-with-only-1s) |
@@ -183,6 +185,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [0756-pyramid-transition-matrix](https://github.com/marcuspeh/leetcode-solutions/tree/master/0756-pyramid-transition-matrix) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/marcuspeh/leetcode-solutions/tree/master/2174-next-greater-numerically-balanced-number) |
 ## Design
 |  |
@@ -220,6 +223,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [0756-pyramid-transition-matrix](https://github.com/marcuspeh/leetcode-solutions/tree/master/0756-pyramid-transition-matrix) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/marcuspeh/leetcode-solutions/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/marcuspeh/leetcode-solutions/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/marcuspeh/leetcode-solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
