@@ -140,6 +140,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/marcuspeh/leetcode-solutions/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/marcuspeh/leetcode-solutions/tree/master/1262-greatest-sum-divisible-by-three) |
+| [1411-number-of-ways-to-paint-n-3-grid](https://github.com/marcuspeh/leetcode-solutions/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/marcuspeh/leetcode-solutions/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/marcuspeh/leetcode-solutions/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/marcuspeh/leetcode-solutions/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
