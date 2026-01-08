@@ -1,21 +1,12 @@
 class Solution:
-    def maxDotProduct(self, nums1: List[int], nums2: List[int]) -> int:
-        if max(nums1) < 0 and min(nums2) > 0:
-            return max(nums1) * min(nums2)
-        
-        if min(nums1) > 0 and max(nums2) < 0:
-            return min(nums1) * max(nums2)
-        
-        
-        if len(nums1) < len(nums2):
-            nums1, nums2 = nums2, nums1
-            
-        curr = [0 for _ in range(len(nums2) + 1)]
+    def maxDotProduct(self, a, b):
+        n, m = len(a), len(b)
+        NEG = -10**9
+        dp = [[NEG]*(m+1) for _ in range(n+1)]
 
-        for i in range(len(nums1)):
-            temp = curr.copy()
-            for j in range(len(nums2)):
-                dot = nums1[i] * nums2[j]
-                curr[j + 1] = max(temp[j] + dot, curr[j + 1], curr[j])
-                
-        return curr[-1]
+        for i in range(1, n+1):
+            for j in range(1, m+1):
+                take = a[i-1]*b[j-1] + max(0, dp[i-1][j-1])
+                dp[i][j] = max(take, dp[i-1][j], dp[i][j-1])
+
+        return dp[n][m]
