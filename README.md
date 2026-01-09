@@ -60,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0794-swim-in-rising-water](https://github.com/marcuspeh/leetcode-solutions/tree/master/0794-swim-in-rising-water) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/marcuspeh/leetcode-solutions/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/marcuspeh/leetcode-solutions/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/marcuspeh/leetcode-solutions/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/marcuspeh/leetcode-solutions/tree/master/1970-last-day-where-you-can-still-cross) |
@@ -68,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0794-swim-in-rising-water](https://github.com/marcuspeh/leetcode-solutions/tree/master/0794-swim-in-rising-water) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/marcuspeh/leetcode-solutions/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/marcuspeh/leetcode-solutions/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/marcuspeh/leetcode-solutions/tree/master/1970-last-day-where-you-can-still-cross) |
 ## Union Find
@@ -97,6 +99,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0756-pyramid-transition-matrix](https://github.com/marcuspeh/leetcode-solutions/tree/master/0756-pyramid-transition-matrix) |
 | [0840-magic-squares-in-grid](https://github.com/marcuspeh/leetcode-solutions/tree/master/0840-magic-squares-in-grid) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/marcuspeh/leetcode-solutions/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/marcuspeh/leetcode-solutions/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/marcuspeh/leetcode-solutions/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/marcuspeh/leetcode-solutions/tree/master/1353-find-resultant-array-after-removing-anagrams) |
@@ -257,10 +260,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 |  |
 | ------- |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/marcuspeh/leetcode-solutions/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/marcuspeh/leetcode-solutions/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/marcuspeh/leetcode-solutions/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 ## Binary Tree
 |  |
 | ------- |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/marcuspeh/leetcode-solutions/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/marcuspeh/leetcode-solutions/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 <!---LeetCode Topics End-->
