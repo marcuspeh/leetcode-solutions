@@ -1,20 +1,30 @@
 class Solution:
     def maxSideLength(self, mat: List[List[int]], threshold: int) -> int:
-        if not mat:
-            return 0
-        max_square = 0
-        dp = [[0] * (len(mat[0]) + 1) for _ in range(len(mat) + 1)]
-        for i in range(1, len(mat) + 1):
-            for j in range(1, len(mat[0]) + 1):
-                dp[i][j] = dp[i - 1][j] + dp[i][j - 1] - dp[i - 1][j - 1] + mat[i - 1][j - 1]
-                l = 1
-                r = min(i, j)
-                while l <= r:
-                    k = (l + r) // 2
-                    cur_sum = dp[i][j] - dp[i - k][j] - dp[i][j - k] + dp[i - k][j - k]
-                    if cur_sum <= threshold:
-                        max_square = max(max_square, k)
-                        l = k + 1
-                    else:
-                        r = k - 1
-        return max_square
+        m, n = len(mat), len(mat[0])
+        P = [[0] * (n + 1) for _ in range(m + 1)]
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+                P[i][j] = (
+                    P[i - 1][j]
+                    + P[i][j - 1]
+                    - P[i - 1][j - 1]
+                    + mat[i - 1][j - 1]
+                )
+
+        def getRect(x1, y1, x2, y2):
+            return P[x2][y2] - P[x1 - 1][y2] - P[x2][y1 - 1] + P[x1 - 1][y1 - 1]
+
+        l, r, ans = 1, min(m, n), 0
+        while l <= r:
+            mid = (l + r) // 2
+            find = any(
+                getRect(i, j, i + mid - 1, j + mid - 1) <= threshold
+                for i in range(1, m - mid + 2)
+                for j in range(1, n - mid + 2)
+            )
+            if find:
+                ans = mid
+                l = mid + 1
+            else:
+                r = mid - 1
+        return ans
