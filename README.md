@@ -38,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3315-construct-the-minimum-bitwise-array-ii](https://github.com/marcuspeh/leetcode-solutions/tree/master/3315-construct-the-minimum-bitwise-array-ii) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/marcuspeh/leetcode-solutions/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3476-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/marcuspeh/leetcode-solutions/tree/master/3476-find-minimum-operations-to-make-all-elements-divisible-by-three) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/marcuspeh/leetcode-solutions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/marcuspeh/leetcode-solutions/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3531-count-covered-buildings](https://github.com/marcuspeh/leetcode-solutions/tree/master/3531-count-covered-buildings) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/marcuspeh/leetcode-solutions/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
@@ -87,6 +88,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0794-swim-in-rising-water](https://github.com/marcuspeh/leetcode-solutions/tree/master/0794-swim-in-rising-water) |
 | [1612-avoid-flood-in-the-city](https://github.com/marcuspeh/leetcode-solutions/tree/master/1612-avoid-flood-in-the-city) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/marcuspeh/leetcode-solutions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/marcuspeh/leetcode-solutions/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 ## Matrix
 |  |
@@ -116,6 +118,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2169-simple-bank-system](https://github.com/marcuspeh/leetcode-solutions/tree/master/2169-simple-bank-system) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/marcuspeh/leetcode-solutions/tree/master/2174-next-greater-numerically-balanced-number) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/marcuspeh/leetcode-solutions/tree/master/3437-maximum-total-damage-with-spell-casting) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/marcuspeh/leetcode-solutions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3531-count-covered-buildings](https://github.com/marcuspeh/leetcode-solutions/tree/master/3531-count-covered-buildings) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/marcuspeh/leetcode-solutions/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/marcuspeh/leetcode-solutions/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
@@ -201,6 +204,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2211-count-collisions-on-a-road](https://github.com/marcuspeh/leetcode-solutions/tree/master/2211-count-collisions-on-a-road) |
 | [2288-count-operations-to-obtain-zero](https://github.com/marcuspeh/leetcode-solutions/tree/master/2288-count-operations-to-obtain-zero) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/marcuspeh/leetcode-solutions/tree/master/2343-count-unguarded-cells-in-the-grid) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/marcuspeh/leetcode-solutions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/marcuspeh/leetcode-solutions/tree/master/3616-make-array-elements-equal-to-zero) |
 ## Math
 |  |
@@ -283,4 +287,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/marcuspeh/leetcode-solutions/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/marcuspeh/leetcode-solutions/tree/master/1339-maximum-product-of-splitted-binary-tree) |
+## Linked List
+|  |
+| ------- |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/marcuspeh/leetcode-solutions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/marcuspeh/leetcode-solutions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
+## Ordered Set
+|  |
+| ------- |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/marcuspeh/leetcode-solutions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 <!---LeetCode Topics End-->
