@@ -93,6 +93,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1612-avoid-flood-in-the-city](https://github.com/marcuspeh/leetcode-solutions/tree/master/1612-avoid-flood-in-the-city) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/marcuspeh/leetcode-solutions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/marcuspeh/leetcode-solutions/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/marcuspeh/leetcode-solutions/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 ## Matrix
 |  |
 | ------- |
@@ -308,4 +309,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/marcuspeh/leetcode-solutions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
+## Graph Theory
+|  |
+| ------- |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/marcuspeh/leetcode-solutions/tree/master/3650-minimum-cost-path-with-edge-reversals) |
+## Shortest Path
+|  |
+| ------- |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/marcuspeh/leetcode-solutions/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 <!---LeetCode Topics End-->
