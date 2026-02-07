@@ -1,16 +1,25 @@
 class Solution:
     def minimumDeletions(self, s: str) -> int:
-        n = len(s)
-        aCount = sum(1 for ch in s if ch == "a")
+        countA = []
+        countB = []
+        for i in range(len(s)):
+            currA = 0
+            if s[i] == 'a':
+                currA += 1
+            if i > 0:
+                currA += countA[-1]
+            countA.append(currA)
 
-        bCount = 0
-        minDeletions = n
+            currB = 0
+            if s[len(s) - i - 1] == 'b':
+                currB += 1
+            if i > 0:
+                currB += countB[-1]
+            countB.append(currB)
 
-        for ch in s:
-            if ch == "a":
-                aCount -= 1
-            minDeletions = min(minDeletions, aCount + bCount)
-            if ch == "b":
-                bCount += 1
-
-        return minDeletions
+        result = len(s)
+        for i in range(len(s)):
+            total = countA[i] + countB[len(s) - i - 1]
+            result = min(result, len(s) - total)
+        
+        return result
