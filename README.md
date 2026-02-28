@@ -231,6 +231,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0067-add-binary](https://github.com/marcuspeh/leetcode-solutions/tree/master/0067-add-binary) |
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/marcuspeh/leetcode-solutions/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
+| [1680-concatenation-of-consecutive-binary-numbers](https://github.com/marcuspeh/leetcode-solutions/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/marcuspeh/leetcode-solutions/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2169-simple-bank-system](https://github.com/marcuspeh/leetcode-solutions/tree/master/2169-simple-bank-system) |
 | [2211-count-collisions-on-a-road](https://github.com/marcuspeh/leetcode-solutions/tree/master/2211-count-collisions-on-a-road) |
@@ -247,6 +248,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1015-smallest-integer-divisible-by-k](https://github.com/marcuspeh/leetcode-solutions/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1390-four-divisors](https://github.com/marcuspeh/leetcode-solutions/tree/master/1390-four-divisors) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/marcuspeh/leetcode-solutions/tree/master/1636-number-of-substrings-with-only-1s) |
+| [1680-concatenation-of-consecutive-binary-numbers](https://github.com/marcuspeh/leetcode-solutions/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
 | [1817-calculate-money-in-leetcode-bank](https://github.com/marcuspeh/leetcode-solutions/tree/master/1817-calculate-money-in-leetcode-bank) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/marcuspeh/leetcode-solutions/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/marcuspeh/leetcode-solutions/tree/master/2174-next-greater-numerically-balanced-number) |
@@ -309,6 +311,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0868-binary-gap](https://github.com/marcuspeh/leetcode-solutions/tree/master/0868-binary-gap) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/marcuspeh/leetcode-solutions/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/marcuspeh/leetcode-solutions/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
+| [1680-concatenation-of-consecutive-binary-numbers](https://github.com/marcuspeh/leetcode-solutions/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/marcuspeh/leetcode-solutions/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/marcuspeh/leetcode-solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/marcuspeh/leetcode-solutions/tree/master/3314-construct-the-minimum-bitwise-array-i) |
