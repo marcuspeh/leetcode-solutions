@@ -41,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/marcuspeh/leetcode-solutions/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/marcuspeh/leetcode-solutions/tree/master/2618-maximize-the-minimum-powered-city) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/marcuspeh/leetcode-solutions/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
+| [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/marcuspeh/leetcode-solutions/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3074-apple-redistribution-into-boxes](https://github.com/marcuspeh/leetcode-solutions/tree/master/3074-apple-redistribution-into-boxes) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/marcuspeh/leetcode-solutions/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/marcuspeh/leetcode-solutions/tree/master/3314-construct-the-minimum-bitwise-array-i) |
@@ -125,6 +126,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/marcuspeh/leetcode-solutions/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/marcuspeh/leetcode-solutions/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/marcuspeh/leetcode-solutions/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
+| [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/marcuspeh/leetcode-solutions/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3651-minimum-cost-path-with-teleportations](https://github.com/marcuspeh/leetcode-solutions/tree/master/3651-minimum-cost-path-with-teleportations) |
 ## Hash Table
 |  |
@@ -301,6 +303,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/marcuspeh/leetcode-solutions/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/marcuspeh/leetcode-solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/marcuspeh/leetcode-solutions/tree/master/2618-maximize-the-minimum-powered-city) |
+| [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/marcuspeh/leetcode-solutions/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/marcuspeh/leetcode-solutions/tree/master/3129-find-all-possible-stable-binary-arrays-i) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/marcuspeh/leetcode-solutions/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/marcuspeh/leetcode-solutions/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
