@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0066-plus-one](https://github.com/marcuspeh/leetcode-solutions/tree/master/0066-plus-one) |
 | [0085-maximal-rectangle](https://github.com/marcuspeh/leetcode-solutions/tree/master/0085-maximal-rectangle) |
+| [0396-rotate-function](https://github.com/marcuspeh/leetcode-solutions/tree/master/0396-rotate-function) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/marcuspeh/leetcode-solutions/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0759-set-intersection-size-at-least-two](https://github.com/marcuspeh/leetcode-solutions/tree/master/0759-set-intersection-size-at-least-two) |
 | [0794-swim-in-rising-water](https://github.com/marcuspeh/leetcode-solutions/tree/master/0794-swim-in-rising-water) |
@@ -243,6 +244,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0085-maximal-rectangle](https://github.com/marcuspeh/leetcode-solutions/tree/master/0085-maximal-rectangle) |
+| [0396-rotate-function](https://github.com/marcuspeh/leetcode-solutions/tree/master/0396-rotate-function) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/marcuspeh/leetcode-solutions/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/marcuspeh/leetcode-solutions/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/marcuspeh/leetcode-solutions/tree/master/1262-greatest-sum-divisible-by-three) |
@@ -329,6 +331,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0066-plus-one](https://github.com/marcuspeh/leetcode-solutions/tree/master/0066-plus-one) |
 | [0067-add-binary](https://github.com/marcuspeh/leetcode-solutions/tree/master/0067-add-binary) |
+| [0396-rotate-function](https://github.com/marcuspeh/leetcode-solutions/tree/master/0396-rotate-function) |
 | [0840-magic-squares-in-grid](https://github.com/marcuspeh/leetcode-solutions/tree/master/0840-magic-squares-in-grid) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/marcuspeh/leetcode-solutions/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1390-four-divisors](https://github.com/marcuspeh/leetcode-solutions/tree/master/1390-four-divisors) |
