@@ -246,6 +246,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0085-maximal-rectangle](https://github.com/marcuspeh/leetcode-solutions/tree/master/0085-maximal-rectangle) |
 | [0396-rotate-function](https://github.com/marcuspeh/leetcode-solutions/tree/master/0396-rotate-function) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/marcuspeh/leetcode-solutions/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
+| [0788-rotated-digits](https://github.com/marcuspeh/leetcode-solutions/tree/master/0788-rotated-digits) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/marcuspeh/leetcode-solutions/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/marcuspeh/leetcode-solutions/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1411-number-of-ways-to-paint-n-3-grid](https://github.com/marcuspeh/leetcode-solutions/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
@@ -332,6 +333,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0066-plus-one](https://github.com/marcuspeh/leetcode-solutions/tree/master/0066-plus-one) |
 | [0067-add-binary](https://github.com/marcuspeh/leetcode-solutions/tree/master/0067-add-binary) |
 | [0396-rotate-function](https://github.com/marcuspeh/leetcode-solutions/tree/master/0396-rotate-function) |
+| [0788-rotated-digits](https://github.com/marcuspeh/leetcode-solutions/tree/master/0788-rotated-digits) |
 | [0840-magic-squares-in-grid](https://github.com/marcuspeh/leetcode-solutions/tree/master/0840-magic-squares-in-grid) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/marcuspeh/leetcode-solutions/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1390-four-divisors](https://github.com/marcuspeh/leetcode-solutions/tree/master/1390-four-divisors) |
