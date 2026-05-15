@@ -1,14 +1,28 @@
 class Solution:
     def findMin(self, nums: List[int]) -> int:
-        start = 0
-        end = len(nums) - 1
-        
-        while start < end:
-            mid = start + (end - start) //  2
-            
-            if nums[mid] > nums[end]:
-                start = mid + 1
+        left = 0
+        right = len(nums) - 1
+
+        """
+        1 2 3 4 5 6 7 8
+        ^     |       ^
+
+        7 8 1 2 3 4 5 6
+        ^     |       ^
+
+        5 6 7 8 1 2 3 4
+        ^     |       ^
+
+
+        right > mid = right = mid
+        right >= mid = left = mid
+        """
+
+        while left < right:
+            mid = left + (right - left) // 2
+            if nums[right] > nums[mid]:
+                right = mid
             else:
-                end = mid
-                
-        return nums[start]
+                left = mid + 1
+        
+        return nums[left]
