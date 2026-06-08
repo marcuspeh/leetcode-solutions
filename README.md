@@ -54,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2126-destroying-asteroids](https://github.com/marcuspeh/leetcode-solutions/tree/master/2126-destroying-asteroids) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/marcuspeh/leetcode-solutions/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/marcuspeh/leetcode-solutions/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/marcuspeh/leetcode-solutions/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2169-simple-bank-system](https://github.com/marcuspeh/leetcode-solutions/tree/master/2169-simple-bank-system) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/marcuspeh/leetcode-solutions/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/marcuspeh/leetcode-solutions/tree/master/2244-number-of-laser-beams-in-a-bank) |
@@ -258,6 +259,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0061-rotate-list](https://github.com/marcuspeh/leetcode-solutions/tree/master/0061-rotate-list) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/marcuspeh/leetcode-solutions/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/marcuspeh/leetcode-solutions/tree/master/1877-minimize-maximum-pair-sum-in-array) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/marcuspeh/leetcode-solutions/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/marcuspeh/leetcode-solutions/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/marcuspeh/leetcode-solutions/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/marcuspeh/leetcode-solutions/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
@@ -382,6 +384,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1914-cyclically-rotating-a-grid](https://github.com/marcuspeh/leetcode-solutions/tree/master/1914-cyclically-rotating-a-grid) |
 | [2069-walking-robot-simulation-ii](https://github.com/marcuspeh/leetcode-solutions/tree/master/2069-walking-robot-simulation-ii) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/marcuspeh/leetcode-solutions/tree/master/2137-final-value-of-variable-after-performing-operations) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/marcuspeh/leetcode-solutions/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2169-simple-bank-system](https://github.com/marcuspeh/leetcode-solutions/tree/master/2169-simple-bank-system) |
 | [2211-count-collisions-on-a-road](https://github.com/marcuspeh/leetcode-solutions/tree/master/2211-count-collisions-on-a-road) |
 | [2288-count-operations-to-obtain-zero](https://github.com/marcuspeh/leetcode-solutions/tree/master/2288-count-operations-to-obtain-zero) |
