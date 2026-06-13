@@ -111,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3742-maximum-path-score-in-a-grid](https://github.com/marcuspeh/leetcode-solutions/tree/master/3742-maximum-path-score-in-a-grid) |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/marcuspeh/leetcode-solutions/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/marcuspeh/leetcode-solutions/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
+| [3838-weighted-word-mapping](https://github.com/marcuspeh/leetcode-solutions/tree/master/3838-weighted-word-mapping) |
 ## Binary Search
 |  |
 | ------- |
@@ -372,6 +373,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3474-lexicographically-smallest-generated-string](https://github.com/marcuspeh/leetcode-solutions/tree/master/3474-lexicographically-smallest-generated-string) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/marcuspeh/leetcode-solutions/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3606-coupon-code-validator](https://github.com/marcuspeh/leetcode-solutions/tree/master/3606-coupon-code-validator) |
+| [3838-weighted-word-mapping](https://github.com/marcuspeh/leetcode-solutions/tree/master/3838-weighted-word-mapping) |
 ## Enumeration
 |  |
 | ------- |
@@ -397,6 +399,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/marcuspeh/leetcode-solutions/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/marcuspeh/leetcode-solutions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/marcuspeh/leetcode-solutions/tree/master/3616-make-array-elements-equal-to-zero) |
+| [3838-weighted-word-mapping](https://github.com/marcuspeh/leetcode-solutions/tree/master/3838-weighted-word-mapping) |
 ## Math
 |  |
 | ------- |
