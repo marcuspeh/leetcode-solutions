@@ -1,12 +1,13 @@
 class Solution:
     def maxIceCream(self, costs: List[int], coins: int) -> int:
         total = 0
-        heap = []
+        costs.sort()
+        count = 0
         for cost in costs:
-            heapq.heappush(heap, -cost)
+            if total + cost > coins:
+                break
+            
             total += cost
-            while total > coins:
-                tooEx = heapq.heappop(heap)
-                total += tooEx
+            count += 1
         
-        return len(heap)
+        return count
