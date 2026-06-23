@@ -338,6 +338,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3651-minimum-cost-path-with-teleportations](https://github.com/marcuspeh/leetcode-solutions/tree/master/3651-minimum-cost-path-with-teleportations) |
 | [3660-jump-game-ix](https://github.com/marcuspeh/leetcode-solutions/tree/master/3660-jump-game-ix) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/marcuspeh/leetcode-solutions/tree/master/3661-maximum-walls-destroyed-by-robots) |
+| [3699-number-of-zigzag-arrays-i](https://github.com/marcuspeh/leetcode-solutions/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/marcuspeh/leetcode-solutions/tree/master/3742-maximum-path-score-in-a-grid) |
 ## Counting
 |  |
@@ -470,6 +471,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3225-maximum-score-from-grid-operations](https://github.com/marcuspeh/leetcode-solutions/tree/master/3225-maximum-score-from-grid-operations) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/marcuspeh/leetcode-solutions/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/marcuspeh/leetcode-solutions/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
+| [3699-number-of-zigzag-arrays-i](https://github.com/marcuspeh/leetcode-solutions/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3719-longest-balanced-subarray-i](https://github.com/marcuspeh/leetcode-solutions/tree/master/3719-longest-balanced-subarray-i) |
 ## Stack
 |  |
