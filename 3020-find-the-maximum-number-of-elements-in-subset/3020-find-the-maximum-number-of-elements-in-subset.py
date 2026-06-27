@@ -1,17 +1,29 @@
 class Solution:
     def maximumLength(self, nums: List[int]) -> int:
-        cnt = Counter(nums)
-        one_cnt = cnt.get(1, 0)
-        ans = one_cnt if one_cnt % 2 else one_cnt - 1
+        counter = {}
+        for num in nums:
+            if num not in counter:
+                counter[num] = 0
+            counter[num] += 1
+    
+        result = 0
+        if 1 in counter:
+            result = counter[1]
+            if result % 2 == 0:
+                result -= 1
+            counter.pop(1)
 
-        cnt.pop(1, None)
-
-        for num in cnt:
-            res = 0
-            x = num
-            while x in cnt and cnt[x] > 1:
-                res += 2
-                x *= x
-            ans = max(ans, res + (1 if x in cnt else -1))
-
-        return ans
+        for num in counter:
+            curr = 0
+            while num in counter and counter[num] > 1:
+                curr += 2
+                num *= num
+            
+            if num in counter:
+                curr += 1
+            else:
+                curr -= 1
+            
+            result = max(result, curr)
+    
+        return result
