@@ -484,6 +484,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/marcuspeh/leetcode-solutions/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/marcuspeh/leetcode-solutions/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/marcuspeh/leetcode-solutions/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/marcuspeh/leetcode-solutions/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/marcuspeh/leetcode-solutions/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 | [3783-mirror-distance-of-an-integer](https://github.com/marcuspeh/leetcode-solutions/tree/master/3783-mirror-distance-of-an-integer) |
 ## Backtracking
@@ -674,4 +675,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3620-network-recovery-pathways](https://github.com/marcuspeh/leetcode-solutions/tree/master/3620-network-recovery-pathways) |
+## Number Theory
+|  |
+| ------- |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/marcuspeh/leetcode-solutions/tree/master/3658-gcd-of-odd-and-even-sums) |
 <!---LeetCode Topics End-->
