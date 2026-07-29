@@ -1,56 +1,62 @@
 class Solution:
+    def comb(self, n, m, k):
+        res = 1
+        m = min(m, n - m)
+
+        for i in range(1, m + 1):
+            res = res * (n - i + 1) // i
+            if res > k:
+                return res
+
+        return res
+
+    def perm(self, bucket, rem, k):
+        ways = 1
+        for i in range(26):
+            if bucket[i] == 0:
+                continue
+
+            ways *= self.comb(rem, bucket[i], k)
+            if ways > k:
+                return ways
+            rem -= bucket[i]
+
+        return ways
+
     def smallestPalindrome(self, s: str, k: int) -> str:
-        def comb(n: int, m: int, k_limit: int) -> int:
-            res = 1
-            m = min(m, n - m)
-
-            for i in range(1, m + 1):
-                res = res * (n - i + 1) // i
-                if res > k_limit:
-                    return k_limit + 1
-            return res
-
-        partition = len(s) // 2
         bucket = [0] * 26
+        for char in s:
+            bucket[ord(char) - ord('a')] += 1
+        
+        middle = None
+        count = 0
+        for i in range(26):
+            if bucket[i] % 2:
+                middle = chr(ord('a') + i)
+            bucket[i] //= 2
+            count += bucket[i]
 
-        for i in range(partition):
-            bucket[ord(s[i]) - 97] += 1
-
-        def permutations(rem: int) -> int:
-            ways = 1
-            for i in range(26):
-                if bucket[i] == 0:
-                    continue
-
-                ways *= comb(rem, bucket[i], k)
-                if ways > k:
-                    break
-                rem -= bucket[i]
-            return ways
-
-        left_chars = []
-        start_index = 1
-
-        for pos in range(partition):
+        if self.perm(bucket, count, k) < k:
+            return ""
+        
+        result = []
+        while count:
+            count -= 1
             for i in range(26):
                 if bucket[i] == 0:
                     continue
 
                 bucket[i] -= 1
-
-                ways = permutations(partition - pos - 1)
-                if start_index + ways > k:
-                    left_chars.append(chr(i + 97))
+                combi = self.perm(bucket, count, k)
+                if combi >= k:
+                    result.append(chr(ord('a') + i))
                     break
-
                 bucket[i] += 1
-                start_index += ways
-
-        if len(left_chars) < partition:
-            return ""
-
-        mid = s[partition] if len(s) % 2 != 0 else ""
-        left_str = "".join(left_chars)
-        right_str = left_str[::-1]
-
-        return left_str + mid + right_str
+                
+                k -= combi
+        
+        firstHalf = "".join(result)
+        secondHalf = "".join(result[::-1])
+        if middle:
+            return firstHalf + middle + secondHalf
+        return firstHalf + secondHalf
