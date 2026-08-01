@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/marcuspeh/leetcode-solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/marcuspeh/leetcode-solutions/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0396-rotate-function](https://github.com/marcuspeh/leetcode-solutions/tree/master/0396-rotate-function) |
+| [0486-predict-the-winner](https://github.com/marcuspeh/leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/marcuspeh/leetcode-solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/marcuspeh/leetcode-solutions/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0759-set-intersection-size-at-least-two](https://github.com/marcuspeh/leetcode-solutions/tree/master/0759-set-intersection-size-at-least-two) |
@@ -364,6 +365,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0085-maximal-rectangle](https://github.com/marcuspeh/leetcode-solutions/tree/master/0085-maximal-rectangle) |
 | [0396-rotate-function](https://github.com/marcuspeh/leetcode-solutions/tree/master/0396-rotate-function) |
+| [0486-predict-the-winner](https://github.com/marcuspeh/leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/marcuspeh/leetcode-solutions/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0788-rotated-digits](https://github.com/marcuspeh/leetcode-solutions/tree/master/0788-rotated-digits) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/marcuspeh/leetcode-solutions/tree/master/0960-delete-columns-to-make-sorted-iii) |
@@ -485,6 +487,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0066-plus-one](https://github.com/marcuspeh/leetcode-solutions/tree/master/0066-plus-one) |
 | [0067-add-binary](https://github.com/marcuspeh/leetcode-solutions/tree/master/0067-add-binary) |
 | [0396-rotate-function](https://github.com/marcuspeh/leetcode-solutions/tree/master/0396-rotate-function) |
+| [0486-predict-the-winner](https://github.com/marcuspeh/leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/marcuspeh/leetcode-solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [0788-rotated-digits](https://github.com/marcuspeh/leetcode-solutions/tree/master/0788-rotated-digits) |
 | [0840-magic-squares-in-grid](https://github.com/marcuspeh/leetcode-solutions/tree/master/0840-magic-squares-in-grid) |
@@ -670,6 +673,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Recursion
 |  |
 | ------- |
+| [0486-predict-the-winner](https://github.com/marcuspeh/leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/marcuspeh/leetcode-solutions/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 ## Union-Find
 |  |
@@ -722,4 +726,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [3312-sorted-gcd-pair-queries](https://github.com/marcuspeh/leetcode-solutions/tree/master/3312-sorted-gcd-pair-queries) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/marcuspeh/leetcode-solutions/tree/master/3518-smallest-palindromic-rearrangement-ii) |
+## Game Theory
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/marcuspeh/leetcode-solutions/tree/master/0486-predict-the-winner) |
 <!---LeetCode Topics End-->
