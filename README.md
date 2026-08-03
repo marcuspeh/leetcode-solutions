@@ -36,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/marcuspeh/leetcode-solutions/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/marcuspeh/leetcode-solutions/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1390-four-divisors](https://github.com/marcuspeh/leetcode-solutions/tree/master/1390-four-divisors) |
+| [1406-stone-game-iii](https://github.com/marcuspeh/leetcode-solutions/tree/master/1406-stone-game-iii) |
 | [1458-max-dot-product-of-two-subsequences](https://github.com/marcuspeh/leetcode-solutions/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/marcuspeh/leetcode-solutions/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1548-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/marcuspeh/leetcode-solutions/tree/master/1548-check-if-all-1s-are-at-least-length-k-places-away) |
@@ -374,6 +375,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1262-greatest-sum-divisible-by-three](https://github.com/marcuspeh/leetcode-solutions/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1301-number-of-paths-with-max-score](https://github.com/marcuspeh/leetcode-solutions/tree/master/1301-number-of-paths-with-max-score) |
 | [1340-jump-game-v](https://github.com/marcuspeh/leetcode-solutions/tree/master/1340-jump-game-v) |
+| [1406-stone-game-iii](https://github.com/marcuspeh/leetcode-solutions/tree/master/1406-stone-game-iii) |
 | [1411-number-of-ways-to-paint-n-3-grid](https://github.com/marcuspeh/leetcode-solutions/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
 | [1458-max-dot-product-of-two-subsequences](https://github.com/marcuspeh/leetcode-solutions/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/marcuspeh/leetcode-solutions/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
@@ -497,6 +499,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1015-smallest-integer-divisible-by-k](https://github.com/marcuspeh/leetcode-solutions/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/marcuspeh/leetcode-solutions/tree/master/1344-angle-between-hands-of-a-clock) |
 | [1390-four-divisors](https://github.com/marcuspeh/leetcode-solutions/tree/master/1390-four-divisors) |
+| [1406-stone-game-iii](https://github.com/marcuspeh/leetcode-solutions/tree/master/1406-stone-game-iii) |
 | [1622-fancy-sequence](https://github.com/marcuspeh/leetcode-solutions/tree/master/1622-fancy-sequence) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/marcuspeh/leetcode-solutions/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/marcuspeh/leetcode-solutions/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
@@ -734,12 +737,15 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0486-predict-the-winner](https://github.com/marcuspeh/leetcode-solutions/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/marcuspeh/leetcode-solutions/tree/master/0877-stone-game) |
+| [1406-stone-game-iii](https://github.com/marcuspeh/leetcode-solutions/tree/master/1406-stone-game-iii) |
 ## Minimax
 |  |
 | ------- |
 | [0877-stone-game](https://github.com/marcuspeh/leetcode-solutions/tree/master/0877-stone-game) |
+| [1406-stone-game-iii](https://github.com/marcuspeh/leetcode-solutions/tree/master/1406-stone-game-iii) |
 ## Zero-Sum Game
 |  |
 | ------- |
 | [0877-stone-game](https://github.com/marcuspeh/leetcode-solutions/tree/master/0877-stone-game) |
+| [1406-stone-game-iii](https://github.com/marcuspeh/leetcode-solutions/tree/master/1406-stone-game-iii) |
 <!---LeetCode Topics End-->
