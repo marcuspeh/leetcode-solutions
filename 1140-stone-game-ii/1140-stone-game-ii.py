@@ -1,33 +1,23 @@
 class Solution:
     def stoneGameII(self, piles: List[int]) -> int:
-        @cache
-        def helper(isAliceTurn, i, m):
-            if i >= len(piles):
-                return 0, 0
-            
-            resultScoreAlice = 0
-            resultScoreBob = 0
-            scoreAlice = 0
-            scoreBob = 0
-            for j in range(1, m * 2 + 1):
-                currIdx = i + j
-                if currIdx >= len(piles):
-                    break
-                    
-                if isAliceTurn:
-                    scoreAlice += piles[currIdx]
-                else:
-                    scoreBob += piles[currIdx]
-                
-                currAlice, currBob = helper(not isAliceTurn, currIdx, max(m, j))
-                currAlice += scoreAlice
-                currBob += scoreBob
-                if isAliceTurn and currAlice > resultScoreAlice:
-                    resultScoreAlice = currAlice
-                    resultScoreBob = currBob
-                elif not isAliceTurn and currBob > resultScoreBob:
-                    resultScoreAlice = currAlice
-                    resultScoreBob = currBob
-            return resultScoreAlice, resultScoreBob
-            
-        return helper(True, -1, 1)[0]
+        length = len(piles)
+        dp = [[0 for _ in range(length + 1)] for _ in range(length + 1)]
+
+        # Store suffix sum for all possible suffix
+        suffix_sum = [0 for _ in range(length + 1)]
+        for i in range(length - 1, -1, -1):
+            suffix_sum[i] = suffix_sum[i + 1] + piles[i]
+
+        # Initialize the dp array.
+        for i in range(length + 1):
+            dp[i][length] = suffix_sum[i]
+
+        # Start from the last index to store the future state first.
+        for index in range(length - 1, -1, -1):
+            for max_till_now in range(length - 1, 0, -1):
+                for X in range(1, min(2 * max_till_now, length - index) + 1):
+                    dp[index][max_till_now] = max(
+                        dp[index][max_till_now],
+                        suffix_sum[index] - dp[index + X][max(max_till_now, X)],
+                    )
+        return dp[0][1]
