@@ -69,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2161-partition-array-according-to-given-pivot](https://github.com/marcuspeh/leetcode-solutions/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2169-simple-bank-system](https://github.com/marcuspeh/leetcode-solutions/tree/master/2169-simple-bank-system) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/marcuspeh/leetcode-solutions/tree/master/2196-create-binary-tree-from-descriptions) |
+| [2213-longest-substring-of-one-repeating-character](https://github.com/marcuspeh/leetcode-solutions/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/marcuspeh/leetcode-solutions/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/marcuspeh/leetcode-solutions/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/marcuspeh/leetcode-solutions/tree/master/2392-successful-pairs-of-spells-and-potions) |
@@ -452,6 +453,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/marcuspeh/leetcode-solutions/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/marcuspeh/leetcode-solutions/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2211-count-collisions-on-a-road](https://github.com/marcuspeh/leetcode-solutions/tree/master/2211-count-collisions-on-a-road) |
+| [2213-longest-substring-of-one-repeating-character](https://github.com/marcuspeh/leetcode-solutions/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/marcuspeh/leetcode-solutions/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/marcuspeh/leetcode-solutions/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/marcuspeh/leetcode-solutions/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
@@ -660,6 +662,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Ordered Set
 |  |
 | ------- |
+| [2213-longest-substring-of-one-repeating-character](https://github.com/marcuspeh/leetcode-solutions/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/marcuspeh/leetcode-solutions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 ## Graph Theory
 |  |
@@ -690,6 +693,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1622-fancy-sequence](https://github.com/marcuspeh/leetcode-solutions/tree/master/1622-fancy-sequence) |
+| [2213-longest-substring-of-one-repeating-character](https://github.com/marcuspeh/leetcode-solutions/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [3161-block-placement-queries](https://github.com/marcuspeh/leetcode-solutions/tree/master/3161-block-placement-queries) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/marcuspeh/leetcode-solutions/tree/master/3501-maximize-active-section-with-trade-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/marcuspeh/leetcode-solutions/tree/master/3719-longest-balanced-subarray-i) |
