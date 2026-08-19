@@ -36,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1345-jump-game-iv](https://github.com/marcuspeh/leetcode-solutions/tree/master/1345-jump-game-iv) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/marcuspeh/leetcode-solutions/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/marcuspeh/leetcode-solutions/tree/master/1353-find-resultant-array-after-removing-anagrams) |
+| [1386-cinema-seat-allocation](https://github.com/marcuspeh/leetcode-solutions/tree/master/1386-cinema-seat-allocation) |
 | [1390-four-divisors](https://github.com/marcuspeh/leetcode-solutions/tree/master/1390-four-divisors) |
 | [1406-stone-game-iii](https://github.com/marcuspeh/leetcode-solutions/tree/master/1406-stone-game-iii) |
 | [1458-max-dot-product-of-two-subsequences](https://github.com/marcuspeh/leetcode-solutions/tree/master/1458-max-dot-product-of-two-subsequences) |
@@ -263,6 +264,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1345-jump-game-iv](https://github.com/marcuspeh/leetcode-solutions/tree/master/1345-jump-game-iv) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/marcuspeh/leetcode-solutions/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/marcuspeh/leetcode-solutions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [1386-cinema-seat-allocation](https://github.com/marcuspeh/leetcode-solutions/tree/master/1386-cinema-seat-allocation) |
 | [1590-make-sum-divisible-by-p](https://github.com/marcuspeh/leetcode-solutions/tree/master/1590-make-sum-divisible-by-p) |
 | [1612-avoid-flood-in-the-city](https://github.com/marcuspeh/leetcode-solutions/tree/master/1612-avoid-flood-in-the-city) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/marcuspeh/leetcode-solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -296,6 +298,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0759-set-intersection-size-at-least-two](https://github.com/marcuspeh/leetcode-solutions/tree/master/0759-set-intersection-size-at-least-two) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/marcuspeh/leetcode-solutions/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/marcuspeh/leetcode-solutions/tree/master/1262-greatest-sum-divisible-by-three) |
+| [1386-cinema-seat-allocation](https://github.com/marcuspeh/leetcode-solutions/tree/master/1386-cinema-seat-allocation) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/marcuspeh/leetcode-solutions/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1612-avoid-flood-in-the-city](https://github.com/marcuspeh/leetcode-solutions/tree/master/1612-avoid-flood-in-the-city) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/marcuspeh/leetcode-solutions/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
@@ -625,6 +628,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0756-pyramid-transition-matrix](https://github.com/marcuspeh/leetcode-solutions/tree/master/0756-pyramid-transition-matrix) |
 | [0868-binary-gap](https://github.com/marcuspeh/leetcode-solutions/tree/master/0868-binary-gap) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/marcuspeh/leetcode-solutions/tree/master/1018-binary-prefix-divisible-by-5) |
+| [1386-cinema-seat-allocation](https://github.com/marcuspeh/leetcode-solutions/tree/master/1386-cinema-seat-allocation) |
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/marcuspeh/leetcode-solutions/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/marcuspeh/leetcode-solutions/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/marcuspeh/leetcode-solutions/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
