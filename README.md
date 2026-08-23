@@ -308,6 +308,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1833-maximum-ice-cream-bars](https://github.com/marcuspeh/leetcode-solutions/tree/master/1833-maximum-ice-cream-bars) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/marcuspeh/leetcode-solutions/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/marcuspeh/leetcode-solutions/tree/master/1877-minimize-maximum-pair-sum-in-array) |
+| [1927-sum-game](https://github.com/marcuspeh/leetcode-solutions/tree/master/1927-sum-game) |
 | [1975-maximum-matrix-sum](https://github.com/marcuspeh/leetcode-solutions/tree/master/1975-maximum-matrix-sum) |
 | [2029-stone-game-ix](https://github.com/marcuspeh/leetcode-solutions/tree/master/2029-stone-game-ix) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/marcuspeh/leetcode-solutions/tree/master/2078-two-furthest-houses-with-different-colors) |
@@ -456,6 +457,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/marcuspeh/leetcode-solutions/tree/master/1758-minimum-changes-to-make-alternating-binary-string) |
 | [1871-jump-game-vii](https://github.com/marcuspeh/leetcode-solutions/tree/master/1871-jump-game-vii) |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/marcuspeh/leetcode-solutions/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
+| [1927-sum-game](https://github.com/marcuspeh/leetcode-solutions/tree/master/1927-sum-game) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/marcuspeh/leetcode-solutions/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/marcuspeh/leetcode-solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/marcuspeh/leetcode-solutions/tree/master/2137-final-value-of-variable-after-performing-operations) |
@@ -532,6 +534,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/marcuspeh/leetcode-solutions/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
 | [1817-calculate-money-in-leetcode-bank](https://github.com/marcuspeh/leetcode-solutions/tree/master/1817-calculate-money-in-leetcode-bank) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/marcuspeh/leetcode-solutions/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
+| [1927-sum-game](https://github.com/marcuspeh/leetcode-solutions/tree/master/1927-sum-game) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/marcuspeh/leetcode-solutions/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2029-stone-game-ix](https://github.com/marcuspeh/leetcode-solutions/tree/master/2029-stone-game-ix) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/marcuspeh/leetcode-solutions/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
@@ -775,6 +778,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0877-stone-game](https://github.com/marcuspeh/leetcode-solutions/tree/master/0877-stone-game) |
 | [1140-stone-game-ii](https://github.com/marcuspeh/leetcode-solutions/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/marcuspeh/leetcode-solutions/tree/master/1406-stone-game-iii) |
+| [1927-sum-game](https://github.com/marcuspeh/leetcode-solutions/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/marcuspeh/leetcode-solutions/tree/master/2029-stone-game-ix) |
 ## Minimax
 |  |
