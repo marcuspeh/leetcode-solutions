@@ -288,6 +288,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/marcuspeh/leetcode-solutions/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3606-coupon-code-validator](https://github.com/marcuspeh/leetcode-solutions/tree/master/3606-coupon-code-validator) |
 | [3719-longest-balanced-subarray-i](https://github.com/marcuspeh/leetcode-solutions/tree/master/3719-longest-balanced-subarray-i) |
+| [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/marcuspeh/leetcode-solutions/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3731-find-missing-elements](https://github.com/marcuspeh/leetcode-solutions/tree/master/3731-find-missing-elements) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/marcuspeh/leetcode-solutions/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/marcuspeh/leetcode-solutions/tree/master/3739-count-subarrays-with-majority-element-ii) |
@@ -327,6 +328,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/marcuspeh/leetcode-solutions/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/marcuspeh/leetcode-solutions/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3689-maximum-total-subarray-value-i](https://github.com/marcuspeh/leetcode-solutions/tree/master/3689-maximum-total-subarray-value-i) |
+| [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/marcuspeh/leetcode-solutions/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/marcuspeh/leetcode-solutions/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Two Pointers
 |  |
@@ -434,6 +436,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/marcuspeh/leetcode-solutions/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/marcuspeh/leetcode-solutions/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/marcuspeh/leetcode-solutions/tree/master/3518-smallest-palindromic-rearrangement-ii) |
+| [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/marcuspeh/leetcode-solutions/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/marcuspeh/leetcode-solutions/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## String
 |  |
@@ -481,6 +484,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/marcuspeh/leetcode-solutions/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 | [3606-coupon-code-validator](https://github.com/marcuspeh/leetcode-solutions/tree/master/3606-coupon-code-validator) |
 | [3614-process-string-with-special-operations-ii](https://github.com/marcuspeh/leetcode-solutions/tree/master/3614-process-string-with-special-operations-ii) |
+| [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/marcuspeh/leetcode-solutions/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3838-weighted-word-mapping](https://github.com/marcuspeh/leetcode-solutions/tree/master/3838-weighted-word-mapping) |
 ## Enumeration
 |  |
@@ -490,6 +494,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/marcuspeh/leetcode-solutions/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/marcuspeh/leetcode-solutions/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/marcuspeh/leetcode-solutions/tree/master/3345-smallest-divisible-digit-product-i) |
+| [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/marcuspeh/leetcode-solutions/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 ## Simulation
 |  |
 | ------- |
