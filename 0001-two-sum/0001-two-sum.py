@@ -1,9 +1,10 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        cache = {}
-        
+        idx = {}
         for i in range(len(nums)):
-            n = nums[i]
-            if target - n in cache:
-                return (cache[target - n], i)
-            cache[n] = i
+            num = nums[i]
+            requiredPrev = target - num
+            if requiredPrev in idx:
+                return [idx[requiredPrev], i]
+            
+            idx[num] = i
