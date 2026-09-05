@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0001-two-sum](https://github.com/marcuspeh/leetcode-solutions/tree/master/0001-two-sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/marcuspeh/leetcode-solutions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0048-rotate-image](https://github.com/marcuspeh/leetcode-solutions/tree/master/0048-rotate-image) |
+| [0056-merge-intervals](https://github.com/marcuspeh/leetcode-solutions/tree/master/0056-merge-intervals) |
 | [0066-plus-one](https://github.com/marcuspeh/leetcode-solutions/tree/master/0066-plus-one) |
 | [0085-maximal-rectangle](https://github.com/marcuspeh/leetcode-solutions/tree/master/0085-maximal-rectangle) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/marcuspeh/leetcode-solutions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -361,6 +362,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0056-merge-intervals](https://github.com/marcuspeh/leetcode-solutions/tree/master/0056-merge-intervals) |
 | [0217-contains-duplicate](https://github.com/marcuspeh/leetcode-solutions/tree/master/0217-contains-duplicate) |
 | [0628-maximum-product-of-three-numbers](https://github.com/marcuspeh/leetcode-solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [0759-set-intersection-size-at-least-two](https://github.com/marcuspeh/leetcode-solutions/tree/master/0759-set-intersection-size-at-least-two) |
@@ -822,4 +824,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2029-stone-game-ix](https://github.com/marcuspeh/leetcode-solutions/tree/master/2029-stone-game-ix) |
+## Quicksort
+|  |
+| ------- |
+| [0056-merge-intervals](https://github.com/marcuspeh/leetcode-solutions/tree/master/0056-merge-intervals) |
 <!---LeetCode Topics End-->
