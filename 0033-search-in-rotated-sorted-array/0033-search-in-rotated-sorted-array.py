@@ -1,7 +1,5 @@
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
-        # 7 8 9 1 2 3 4 5 6
-        # 1 2 3 4 5 6 7 8 9
         start = 0 
         end = len(nums) - 1
         while start < end:
