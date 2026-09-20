@@ -563,6 +563,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1140-stone-game-ii](https://github.com/marcuspeh/leetcode-solutions/tree/master/1140-stone-game-ii) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/marcuspeh/leetcode-solutions/tree/master/1344-angle-between-hands-of-a-clock) |
 | [1390-four-divisors](https://github.com/marcuspeh/leetcode-solutions/tree/master/1390-four-divisors) |
+| [1401-circle-and-rectangle-overlapping](https://github.com/marcuspeh/leetcode-solutions/tree/master/1401-circle-and-rectangle-overlapping) |
 | [1406-stone-game-iii](https://github.com/marcuspeh/leetcode-solutions/tree/master/1406-stone-game-iii) |
 | [1622-fancy-sequence](https://github.com/marcuspeh/leetcode-solutions/tree/master/1622-fancy-sequence) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/marcuspeh/leetcode-solutions/tree/master/1636-number-of-substrings-with-only-1s) |
@@ -783,6 +784,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0836-rectangle-overlap](https://github.com/marcuspeh/leetcode-solutions/tree/master/0836-rectangle-overlap) |
+| [1401-circle-and-rectangle-overlapping](https://github.com/marcuspeh/leetcode-solutions/tree/master/1401-circle-and-rectangle-overlapping) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/marcuspeh/leetcode-solutions/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 ## Binary Indexed Tree
 |  |
