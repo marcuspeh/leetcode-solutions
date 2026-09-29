@@ -78,6 +78,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2196-create-binary-tree-from-descriptions](https://github.com/marcuspeh/leetcode-solutions/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/marcuspeh/leetcode-solutions/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/marcuspeh/leetcode-solutions/tree/master/2244-number-of-laser-beams-in-a-bank) |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/marcuspeh/leetcode-solutions/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/marcuspeh/leetcode-solutions/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/marcuspeh/leetcode-solutions/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/marcuspeh/leetcode-solutions/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
@@ -247,6 +248,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1975-maximum-matrix-sum](https://github.com/marcuspeh/leetcode-solutions/tree/master/1975-maximum-matrix-sum) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/marcuspeh/leetcode-solutions/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/marcuspeh/leetcode-solutions/tree/master/2244-number-of-laser-beams-in-a-bank) |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/marcuspeh/leetcode-solutions/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/marcuspeh/leetcode-solutions/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/marcuspeh/leetcode-solutions/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2573-find-the-string-with-lcp](https://github.com/marcuspeh/leetcode-solutions/tree/master/2573-find-the-string-with-lcp) |
@@ -430,6 +432,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1871-jump-game-vii](https://github.com/marcuspeh/leetcode-solutions/tree/master/1871-jump-game-vii) |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/marcuspeh/leetcode-solutions/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/marcuspeh/leetcode-solutions/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/marcuspeh/leetcode-solutions/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/marcuspeh/leetcode-solutions/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2463-minimum-total-distance-traveled](https://github.com/marcuspeh/leetcode-solutions/tree/master/2463-minimum-total-distance-traveled) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/marcuspeh/leetcode-solutions/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
@@ -853,4 +856,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/marcuspeh/leetcode-solutions/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/marcuspeh/leetcode-solutions/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 <!---LeetCode Topics End-->
